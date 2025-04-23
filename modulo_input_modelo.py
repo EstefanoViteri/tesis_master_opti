@@ -141,7 +141,9 @@ def crear_input(datos,params):
     
     if len(T) == len(costo_kwh_Schmidt.keys()):
         costo_kwh = {t: costo_kwh_Schmidt[t] for t in T}
-
+        print('Costo de baterias Schmidt')
+    else:
+        print('Costo de baterias reduccion anual')
     cost_bus_sin_bat = {i: j - (tam_bat(i,K_E) * costo_kwh[t1]) for i,j in cost_ini_bus.items()}
     f = {(k,t): cost_bus_sin_bat[k] + (tam_bat(k,K_E) * costo_kwh[t]) for k in K for t in T}
 
