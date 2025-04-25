@@ -1,8 +1,272 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
+import pandas as pd
+import matplotlib.colors as mcolors
 
 ### Funciones para graficar los resultados
+def graficar_un_escenario_edades(informacion, variable, escenario, anios):
+    colores_tipo = {
+    '1_Diesel_12':'#FFB3BA',
+    '2_EB_12_360_CD':'#FFDFBA',
+    '3_EB_12_450_CD':'#BAFFC9',
+    '4_EB_12_250_CD+CT':'#BAE1FF',
+    '5_EB_12_320_CD+CT':'#D5BAFF',
+    # Agrega más si tienes otros tipos
+    }
+    df = informacion[escenario][variable]
+    tipos = list(df['Tipo de autobus'].unique())
+    max_edad_dict = {tipo: df[df['Tipo de autobus'] == tipo]['Edad'].max() for tipo in tipos}
+    tipo_edad_dict = {}
+    for tipo in tipos:
+        edades = sorted(df[df['Tipo de autobus'] == tipo]['Edad'].unique())
+        for edad in edades:
+            tipo_edad_dict[(tipo, edad)] = []
+
+    for anio in anios:
+        df_anio = df[df['Periodo'] == anio]
+        count_by = df_anio.groupby(['Tipo de autobus', 'Edad'])['z'].sum()
+        for (tipo, edad) in tipo_edad_dict.keys():
+            tipo_edad_dict[(tipo, edad)].append(count_by.get((tipo, edad), 0))
+
+    fig, ax = plt.subplots(figsize=(min(35, max(18, 1.4*len(anios))), 11))
+    bar_width = 0.7
+    bar_positions = np.arange(len(anios))
+    bottom = np.zeros(len(anios))
+    handles_tipos = {}
+
+    for idx, ((tipo, edad), counts) in enumerate(tipo_edad_dict.items()):
+        # Edad 1 es color original, mayor edad más oscuro
+        max_edad = max_edad_dict[tipo] if max_edad_dict[tipo] > 1 else 1
+        # El degradado: factor 1 para edad=1, 0 para edad=max_edad
+        factor = 1 - (edad-1) / (max_edad-1) if max_edad > 1 else 1
+        base_rgb = np.array(mcolors.to_rgb(colores_tipo[tipo]))
+        # 0.35 = oscuridad máxima, 1 = original (más claro)
+        color = base_rgb * (0.35 + 0.65 * factor)
+        color = np.clip(color, 0, 1)
+        bars = ax.bar(bar_positions, counts, bar_width, bottom=bottom, color=color)
+        # Guardar un solo handle para la leyenda por tipo (el más claro)
+        if tipo not in handles_tipos and edad == 1:
+            handles_tipos[tipo] = bars[0]
+        bottom += np.array(counts)
+        for bar, count in zip(bars, counts):
+            if count > 0:
+                height = bar.get_height()
+                ax.text(bar.get_x() + bar.get_width() / 2, bar.get_y() + height / 2, f'{int(count)}',
+                        ha='center', va='center', fontsize=10)
+
+    ax.set_xticks(bar_positions)
+    ax.set_xticklabels(anios, rotation=45, fontsize=14)
+    ax.set_xlabel('Años', fontsize=17)
+    ax.set_ylabel('Cantidad de autobuses disponibles', fontsize=17)
+    plt.yticks(fontsize=14)
+
+    # Leyenda: solo tipos y color original (edad=1)
+    labels_tipos = [tipo.replace('_', '-')[2:] for tipo in handles_tipos.keys()]
+    ax.legend(handles_tipos.values(), labels_tipos, loc='upper left', bbox_to_anchor=(1, 1),
+              frameon=False, fontsize=15, title="Tipo de bus")
+    plt.tight_layout(rect=[0, 0.1, 0.85, 1])
+
+    # Leyenda del degradado de edad (ejemplo para el primer tipo)
+    from matplotlib.colors import to_rgb
+    tipo_demo = tipos[0]  # El primer tipo de tu lista
+    max_edad = max_edad_dict[tipo_demo]
+    base_rgb = np.array(to_rgb(colores_tipo[tipo_demo]))
+    grad = np.linspace(1, 0, max_edad)
+    grad_colors = [base_rgb * (0.35 + 0.65 * g) for g in grad]
+    grad_img = np.array([grad_colors])
+    axins = fig.add_axes([0.15, 0.01, 0.14, 0.045])
+    axins.imshow(grad_img, aspect='auto')
+    axins.set_xticks(np.linspace(0, max_edad-1, min(max_edad, 5), dtype=int))
+    axins.set_xticklabels(np.linspace(1, max_edad, min(max_edad, 5), dtype=int), fontsize=11)
+    axins.set_yticks([])
+    axins.set_title(f"{tipo_demo.replace('_', '-')[2:]}: Edad", fontsize=12)
+    for spine in axins.spines.values():
+        spine.set_visible(False)
+
+    plt.show()
+
+
+
+def graficar_sensibilidad_variable_v14(modelo, variable_dict, nombre_var: str, eje_tiempo_idx: int = 1):
+    """
+    Versión 14: Mejora el espacio visual para los símbolos ∞, asegurando separación suficiente del eje.
+    """
+    data_por_tipo = {}
+    rangos = {}
+
+    for idx, var in variable_dict.items():
+        try:
+            sa_low = var.SAObjLow
+            sa_up = var.SAObjUp
+            obj_coef = var.Obj
+            rangos[idx] = [(sa_low, sa_up) , obj_coef]
+            if isinstance(idx, tuple):
+                tipo = idx[0]
+                tiempo = idx[eje_tiempo_idx]
+            else:
+                tipo = 'default'
+                tiempo = idx
+            if tipo not in data_por_tipo:
+                data_por_tipo[tipo] = []
+            data_por_tipo[tipo].append((tiempo, sa_low, obj_coef, sa_up))
+        except AttributeError:
+            continue
+
+    n_tipos = len(data_por_tipo)
+    if n_tipos == 0:
+        print(f"No hay datos de sensibilidad disponibles para '{nombre_var}'. ¿Es un modelo LP?")
+        return
+
+    fig, axs = plt.subplots(n_tipos, 1, figsize=(14, 4 * n_tipos), sharex=True)
+    if n_tipos == 1:
+        axs = [axs]
+
+    bar_width = 0.4
+    marker_width = 0.25
+
+    for ax, (tipo, data) in zip(axs, sorted(data_por_tipo.items())):
+        data.sort(key=lambda x: x[0])
+        tiempo, low, obj, up = zip(*data)
+
+        low_vals = [l for l in low if np.isfinite(l)]
+        up_vals = [u for u in up if np.isfinite(u)]
+        all_vals = list(obj) + low_vals + up_vals
+
+        y_min_data = min(all_vals) if all_vals else 0
+        y_max_data = max(all_vals) if all_vals else 1
+        range_span = y_max_data - y_min_data if y_max_data != y_min_data else 1
+
+        # Ampliar más para separar ∞ del tope visual
+        y_inf_up = y_max_data + 0.12 * range_span
+        y_inf_low = y_min_data - 0.12 * range_span
+        y_max = y_inf_up + 0.08 * range_span
+        y_min = y_inf_low - 0.08 * range_span
+
+        for t, l, o_, u_ in zip(tiempo, low, obj, up):
+            l_draw = y_inf_low if not np.isfinite(l) else l
+            u_draw = y_inf_up if not np.isfinite(u_) else u_
+            alto = u_draw - l_draw
+
+            ax.add_patch(plt.Rectangle((t - bar_width / 2, l_draw), bar_width, alto,
+                                       facecolor='skyblue', alpha=0.4, edgecolor=None, zorder=1))
+
+            if np.isfinite(l):
+                ax.plot([t - bar_width / 2, t + bar_width / 2], [l, l], color='red', linewidth=2.5, zorder=2)
+            else:
+                ax.plot([t - bar_width / 4, t + bar_width / 4], [y_inf_low, y_inf_low],
+                        color='red', linewidth=2.5, zorder=2)
+                ax.text(t, y_inf_low - 0.015 * range_span, '∞', color='red', fontsize=12,
+                        ha='center', va='top')
+
+            if np.isfinite(u_):
+                ax.plot([t - bar_width / 2, t + bar_width / 2], [u_, u_], color='red', linewidth=2.5, zorder=2)
+            else:
+                ax.plot([t - bar_width / 4, t + bar_width / 4], [y_inf_up, y_inf_up],
+                        color='red', linewidth=2.5, zorder=2)
+                ax.text(t, y_inf_up + 0.015 * range_span, '∞', color='red', fontsize=12,
+                        ha='center', va='bottom')
+
+            ax.plot([t - marker_width / 2, t + marker_width / 2], [o_, o_],
+                    color='black', linewidth=2.5, zorder=3)
+
+        ax.set_title(f"{nombre_var} - Tipo: {tipo}", fontsize=14)
+        ax.set_ylabel("Valor coeficiente", fontsize=11)
+        ax.set_ylim(y_min, y_max)
+        ax.grid(True, linestyle='--', alpha=0.5)
+
+    axs[-1].set_xlabel("Año", fontsize=12)
+    plt.tight_layout()
+    plt.show()
+    return rangos
+
+def graficar_sensibilidad_costo_kwh(dict_info, nombre_var: str, eje_tiempo_idx: int = 1,porcen = False):
+    data_por_tipo = {}
+    rangos = {}
+
+    for idx, var in dict_info.items():
+        try:
+            sa_low = var[0][0] if porcen == False else var[0][0] / var[1]
+            sa_up = var[0][1] if porcen == False else var[0][1] / var[1]
+            obj_coef = var[1] if porcen == False else 1
+            if isinstance(idx, tuple):
+                tipo = idx[0]
+                tiempo = idx[eje_tiempo_idx]
+            else:
+                tipo = 'default'
+                tiempo = idx
+            if tipo not in data_por_tipo:
+                data_por_tipo[tipo] = []
+            data_por_tipo[tipo].append((tiempo, sa_low, obj_coef, sa_up))
+        except AttributeError:
+            continue
+
+    n_tipos = len(data_por_tipo)
+    if n_tipos == 0:
+        print(f"No hay datos de sensibilidad disponibles para '{nombre_var}'. ¿Es un modelo LP?")
+        return
+
+    fig, axs = plt.subplots(n_tipos, 1, figsize=(14, 4 * n_tipos), sharex=True)
+    if n_tipos == 1:
+        axs = [axs]
+
+    bar_width = 0.4
+    marker_width = 0.25
+
+    for ax, (tipo, data) in zip(axs, sorted(data_por_tipo.items())):
+        data.sort(key=lambda x: x[0])
+        tiempo, low, obj, up = zip(*data)
+
+        low_vals = [l for l in low if np.isfinite(l)]
+        up_vals = [u for u in up if np.isfinite(u)]
+        all_vals = list(obj) + low_vals + up_vals
+
+        y_min_data = min(all_vals) if all_vals else 0
+        y_max_data = max(all_vals) if all_vals else 1
+        range_span = y_max_data - y_min_data if y_max_data != y_min_data else 1
+
+        # Ampliar más para separar ∞ del tope visual
+        y_inf_up = y_max_data + 0.12 * range_span
+        y_inf_low = y_min_data - 0.12 * range_span
+        y_max = y_inf_up + 0.08 * range_span
+        y_min = y_inf_low - 0.08 * range_span
+
+        for t, l, o_, u_ in zip(tiempo, low, obj, up):
+            l_draw = y_inf_low if not np.isfinite(l) else l
+            u_draw = y_inf_up if not np.isfinite(u_) else u_
+            alto = u_draw - l_draw
+
+            ax.add_patch(plt.Rectangle((t - bar_width / 2, l_draw), bar_width, alto,
+                                       facecolor='skyblue', alpha=0.4, edgecolor=None, zorder=1))
+
+            if np.isfinite(l):
+                ax.plot([t - bar_width / 2, t + bar_width / 2], [l, l], color='red', linewidth=2.5, zorder=2)
+            else:
+                ax.plot([t - bar_width / 4, t + bar_width / 4], [y_inf_low, y_inf_low],
+                        color='red', linewidth=2.5, zorder=2)
+                ax.text(t, y_inf_low - 0.015 * range_span, '∞', color='red', fontsize=12,
+                        ha='center', va='top')
+
+            if np.isfinite(u_):
+                ax.plot([t - bar_width / 2, t + bar_width / 2], [u_, u_], color='red', linewidth=2.5, zorder=2)
+            else:
+                ax.plot([t - bar_width / 4, t + bar_width / 4], [y_inf_up, y_inf_up],
+                        color='red', linewidth=2.5, zorder=2)
+                ax.text(t, y_inf_up + 0.015 * range_span, '∞', color='red', fontsize=12,
+                        ha='center', va='bottom')
+
+            ax.plot([t - marker_width / 2, t + marker_width / 2], [o_, o_],
+                    color='black', linewidth=2.5, zorder=3)
+
+        ax.set_title(f"{nombre_var} - Tipo: {tipo}", fontsize=14)
+        ax.set_ylabel("Valor coeficiente", fontsize=11)
+        ax.set_ylim(y_min, y_max)
+        ax.grid(True, linestyle='--', alpha=0.5)
+
+    axs[-1].set_xlabel("Año", fontsize=12)
+    plt.tight_layout()
+    plt.show()
+    return rangos
 
 def graficar_un_escenario(informacion, variable, escenario, anios):
     """
