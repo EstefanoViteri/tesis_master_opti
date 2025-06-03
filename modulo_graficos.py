@@ -86,8 +86,6 @@ def graficar_un_escenario_edades(informacion, variable, escenario, anios):
 
     plt.show()
 
-
-
 def graficar_sensibilidad_variable_v14(modelo, variable_dict, nombre_var: str, eje_tiempo_idx: int = 1):
     """
     Versión 14: Mejora el espacio visual para los símbolos ∞, asegurando separación suficiente del eje.

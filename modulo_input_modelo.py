@@ -118,6 +118,7 @@ def crear_input(datos,params):
     PE_N  = params['Precio_Elect_Noche'] # Precio energia noche
     PE_T  = 0.096 # Precio energia tarde
     PE_D  = params['Precio_Elect_Dia'] # Precio energia dia
+    epsilon = (PE_D - PE_N) / PE_N # Eficiencia de carga
     PD_param = params['Precio_diesel']
     o_techo = {}
     o_techo = {(k,r,t,j): ide(k,K_E,K_R,PD_param,PE_N,PE_D,rho_N) * (1/efic_bus[k]) * DA[r] for k in K for j in J_K[k] for t in T for r in R}
@@ -162,7 +163,7 @@ def crear_input(datos,params):
     #for i,j in Theta_tilde.items():
     #    print('{}: {}'.format(i,round(j,2)))
 
-    return L,CT,T,K,J_K,J_K_tilde,K_E,C,alpha,R,beta,f,s,kappa,mc,p,F,g,p_tilde,num_per,o,q,h,t1,a,e,e_tilde,t_F,Gamma,theta,theta_tilde,B,Theta,Theta_tilde,var_epsilon,c_tilde,costo_kwh,cost_bus_sin_bat
+    return L,CT,T,K,J_K,J_K_tilde,K_E,K_R,C,alpha,R,beta,f,s,kappa,mc,p,F,g,p_tilde,num_per,o,o_inv,o_techo,q,h,t1,a,e,e_tilde,t_F,Gamma,theta,theta_tilde,B,Theta,Theta_tilde,var_epsilon,c_tilde,costo_kwh,cost_bus_sin_bat,efic_bus,DA,epsilon,rho_N,PE_N
 
 def crear_escenarios(params,num_escenario):
     parametros = {i: j for i,j in params.items()}
@@ -204,7 +205,7 @@ def crear_escenarios(params,num_escenario):
     '''
     return parametros
         
-def Transicion_flota_modelo(L,CT,T,K,J_K,J_K_tilde,K_E,C,alpha,R,beta,f,s,kappa,mc,p,F,g,p_tilde,num_per,o,q,h,t1,a,e,e_tilde,t_F,Gamma,theta,theta_tilde,B,Theta,var_epsilon,c_tilde,sol_ini,params:dict):
+def Transicion_flota_modelo(L,CT,T,K,J_K,J_K_tilde,K_E,K_R,C,alpha,R,beta,f,s,kappa,mc,p,F,g,p_tilde,num_per,o,o_inv,o_techo,q,h,t1,a,e,e_tilde,t_F,Gamma,theta,theta_tilde,B,Theta,var_epsilon,c_tilde,efic_bus,DA,epsilon,rho_N,sol_ini,params:dict):
   
   mo = Model()
   mo.Params.OutputFlag = 1
@@ -213,6 +214,8 @@ def Transicion_flota_modelo(L,CT,T,K,J_K,J_K_tilde,K_E,C,alpha,R,beta,f,s,kappa,
   v = mo.addVars(CT,T,name='v',vtype='I', lb= 0)
   x = mo.addVars( K,T,name='x',vtype='I', lb= 0)
   b = mo.addVars(T   ,name='b',vtype='C', lb= 0)
+  w_diesel = {}
+  w_energia = {}
 
   u_tilde = mo.addVars(T,name='u',vtype='I', lb= 0)
   v_tilde = mo.addVars(T,name='v',vtype='I', lb= 0)
@@ -275,37 +278,183 @@ def Transicion_flota_modelo(L,CT,T,K,J_K,J_K_tilde,K_E,C,alpha,R,beta,f,s,kappa,
       
   
   # Funcion objetivo
-  
-  if params['fin_horizonte']: 
-    mo.setObjective(
-        quicksum( beta**( (t_+1) -1) * quicksum( f[k,t] * x[k,t] 
-                                      - quicksum( s[k,j] * y[k,t,j]  for j in range(1, (kappa[k]+1) +1))
-                                      + quicksum( o[k,r,t,j] * w[k,r,t,j] for r in R for j in range(0, (kappa[k]) +1))
-                                      + mc[k,t] * z[k,t,alpha[k]]
-                                    for k in K)  
-                for t_,t in enumerate(T) )
-      
-        +quicksum( beta**( (t_+1) -1) * quicksum( p[c] * u[c,t] + F * g[c] * v[c,t] for c in CT) for t_,t in enumerate(T) )
-        +quicksum( beta**( (t_+1) -1) * p_tilde * u_tilde[t] for t_,t in enumerate(T) )
+  if params['sensi_combus'][0]:
+    if params['sensi_combus'][1]:
+      w_diesel = mo.addVars(T,name='w_diesel',vtype='C', lb= 0)
+      w_energia = mo.addVars(T,name='w_energia',vtype='C', lb= 0)
+    else:
+      w_diesel = mo.addVar(name='w_diesel',vtype='C', lb= 0)
+      w_energia = mo.addVar(name='w_energia',vtype='C', lb= 0)
+    if params['fin_horizonte']: 
+      if params['sensi_combus'][1]:
+        mo.addConstrs( ( w_diesel[t] == 
+        quicksum( 
+                (beta**( (t_+1) -1) * (1/efic_bus[k]) * DA[r]) * w[k,r,t,j]
+                 
+                for k in K if k not in K_E 
+                for r in R 
+                for j in range(0, (kappa[k]) +1) 
+                )
+        + 
+        quicksum( 
+                (beta**( num_per + i - 1 ) * (1/efic_bus[k]) * DA[r]) * w[k,r,t_F,j] * (1 if t == t_F else 0)
+                for k in K if k not in K_E 
+                for r in R 
+                for j in range(0, (kappa[k]-1) +1)
+                for i in range(1, (kappa[k]-j) +1)
+                )
+        for t_,t in enumerate(T) ), name='R-diesel_');
         
-        +quicksum( beta**( num_per + i - 1 ) * o[k,r,t_F,j+i] * w[k,r,t_F,j]
-                  for k in K for r in R for j in range(0, (kappa[k]-1) +1) for i in range(1, (kappa[k]-j) +1) ) 
-        - quicksum( beta**( num_per + kappa[k] - j ) * s[k,kappa[k]+1] * z[k,t_F,j] for k in K for j in range(0, (kappa[k]) +1) ) 
-        + quicksum( beta**( num_per + alpha[k] - j - 1 ) * mc[k,t_F] * z[k,t_F,j] for k in K for j in range(0, (alpha[k]-1) +1 ) )
-        , GRB.MINIMIZE)
-  else:
+        mo.addConstrs( (w_energia[t] == 
+        quicksum( 
+                beta**( (t_+1) -1) * DA[r] *  
+                ( 
+                  quicksum( (1/efic_bus[k]) * w[k,r,t,j] for k in K_E if k not in K_R for j in range(0, (kappa[k]) +1) ) +
+                  quicksum( (1/efic_bus[k]) * (1 + epsilon - (rho_N*epsilon) ) * w[k,r,t,j] for k in K_R for j in range(0, (kappa[k]) +1) )
+                )
+                for r in R
+                )
+        +
+        quicksum( DA[r] *  
+                ( 
+                  quicksum( beta**( num_per + i - 1 ) * (1/efic_bus[k]) * w[k,r,t_F,j] * (1 if t == t_F else 0)
+                          for k in K_E if k not in K_R 
+                          for j in range(0, (kappa[k]-1) +1)
+                          for i in range(1, (kappa[k]-j) +1) )
+                  +
+                  quicksum( beta**( num_per + i - 1 ) * (1/efic_bus[k]) * (1 + epsilon - (rho_N*epsilon) ) * w[k,r,t_F,j] * (1 if t == t_F else 0)
+                          for k in K_R 
+                          for j in range(0, (kappa[k]-1) +1)
+                          for i in range(1, (kappa[k]-j) +1) )
+                )
+                for r in R
+                )
+        for t_,t in enumerate(T) ), name='R-energia_')
+        
+        mo.setObjective(
+            quicksum( beta**( (t_+1) -1) * quicksum( f[k,t] * x[k,t] 
+                                          - quicksum( s[k,j] * y[k,t,j]  for j in range(1, (kappa[k]+1) +1))
+                                          + quicksum( o_inv[k,r,t,j] * w[k,r,t,j] for r in R for j in range(0, (kappa[k]) +1))
+                                          + mc[k,t] * z[k,t,alpha[k]]
+                                        for k in K)  
+                    for t_,t in enumerate(T) )
+          
+            +quicksum( beta**( (t_+1) -1) * quicksum( p[c] * u[c,t] + F * g[c] * v[c,t] for c in CT) for t_,t in enumerate(T) )
+            +quicksum( beta**( (t_+1) -1) * p_tilde * u_tilde[t] for t_,t in enumerate(T) )
+            
+            +quicksum( beta**( num_per + i - 1 ) * o_inv[k,r,t_F,j+i] * w[k,r,t_F,j]
+                      for k in K for r in R for j in range(0, (kappa[k]-1) +1) for i in range(1, (kappa[k]-j) +1) ) 
+            - quicksum( beta**( num_per + kappa[k] - j ) * s[k,kappa[k]+1] * z[k,t_F,j] for k in K for j in range(0, (kappa[k]) +1) ) 
+            + quicksum( beta**( num_per + alpha[k] - j - 1 ) * mc[k,t_F] * z[k,t_F,j] for k in K for j in range(0, (alpha[k]-1) +1 ) )
+            + quicksum( params['Precio_diesel']*w_diesel[t] + params['Precio_Elect_Noche']* w_energia[t] for t in T )
+            , GRB.MINIMIZE)
+      else:
+        mo.addConstr( w_diesel == 
+        quicksum( 
+                (beta**( (t_+1) -1) * (1/efic_bus[k]) * DA[r]) * w[k,r,t,j]
+                for t_,t in enumerate(T) 
+                for k in K if k not in K_E 
+                for r in R 
+                for j in range(0, (kappa[k]) +1) 
+                )
+        + 
+        quicksum( 
+                (beta**( num_per + i - 1 ) * (1/efic_bus[k]) * DA[r]) * w[k,r,t_F,j]
+                for k in K if k not in K_E 
+                for r in R 
+                for j in range(0, (kappa[k]-1) +1)
+                for i in range(1, (kappa[k]-j) +1)
+                ), name='R-diesel_');
+        
+        mo.addConstr( w_energia == 
+        quicksum( 
+                beta**( (t_+1) -1) * DA[r] *  
+                ( 
+                  quicksum( (1/efic_bus[k]) * w[k,r,t,j] for k in K_E if k not in K_R for j in range(0, (kappa[k]) +1) ) +
+                  quicksum( (1/efic_bus[k]) * (1 + epsilon - (rho_N*epsilon) ) * w[k,r,t,j] for k in K_R for j in range(0, (kappa[k]) +1) )
+                )
+                for t_,t in enumerate(T) 
+                for r in R
+                )
+        +
+        quicksum( DA[r] *  
+                ( 
+                  quicksum( beta**( num_per + i - 1 ) * (1/efic_bus[k]) * w[k,r,t_F,j] 
+                          for k in K_E if k not in K_R 
+                          for j in range(0, (kappa[k]-1) +1)
+                          for i in range(1, (kappa[k]-j) +1) )
+                  +
+                  quicksum( beta**( num_per + i - 1 ) * (1/efic_bus[k]) * (1 + epsilon - (rho_N*epsilon) ) * w[k,r,t_F,j] 
+                          for k in K_R 
+                          for j in range(0, (kappa[k]-1) +1)
+                          for i in range(1, (kappa[k]-j) +1) )
+                )
+                for r in R
+                ), name='R-energia_')
+        
+        mo.setObjective(
+            quicksum( beta**( (t_+1) -1) * quicksum( f[k,t] * x[k,t] 
+                                          - quicksum( s[k,j] * y[k,t,j]  for j in range(1, (kappa[k]+1) +1))
+                                          + quicksum( o_inv[k,r,t,j] * w[k,r,t,j] for r in R for j in range(0, (kappa[k]) +1))
+                                          + mc[k,t] * z[k,t,alpha[k]]
+                                        for k in K)  
+                    for t_,t in enumerate(T) )
+          
+            +quicksum( beta**( (t_+1) -1) * quicksum( p[c] * u[c,t] + F * g[c] * v[c,t] for c in CT) for t_,t in enumerate(T) )
+            +quicksum( beta**( (t_+1) -1) * p_tilde * u_tilde[t] for t_,t in enumerate(T) )
+            
+            +quicksum( beta**( num_per + i - 1 ) * o_inv[k,r,t_F,j+i] * w[k,r,t_F,j]
+                      for k in K for r in R for j in range(0, (kappa[k]-1) +1) for i in range(1, (kappa[k]-j) +1) ) 
+            - quicksum( beta**( num_per + kappa[k] - j ) * s[k,kappa[k]+1] * z[k,t_F,j] for k in K for j in range(0, (kappa[k]) +1) ) 
+            + quicksum( beta**( num_per + alpha[k] - j - 1 ) * mc[k,t_F] * z[k,t_F,j] for k in K for j in range(0, (alpha[k]-1) +1 ) )
+            + params['Precio_diesel']*w_diesel + params['Precio_Elect_Noche']* w_energia
+            , GRB.MINIMIZE)
+    else:
+      print('No se implementa (aún) la sensibilidad de combustible en el caso de no comteplar el fin de horizonte')
       mo.setObjective(
-        quicksum( beta**( (t_+1) -1) * quicksum( f[k,t] * x[k,t] 
-                                      - quicksum( s[k,j] * y[k,t,j]  for j in range(1, (kappa[k]+1) +1))
-                                      + quicksum( o[k,r,t,j] * w[k,r,t,j] for r in R for j in range(0, (kappa[k]) +1))
-                                      + mc[k,t] * z[k,t,alpha[k]]
-                                    for k in K)  
-                for t_,t in enumerate(T) )
-      
-        +quicksum( beta**( (t_+1) -1) * quicksum( p[c] * u[c,t] + F * g[c] * v[c,t] for c in CT) for t_,t in enumerate(T) )
-        +quicksum( beta**( (t_+1) -1) * p_tilde * u_tilde[t] for t_,t in enumerate(T) )
+          quicksum( beta**( (t_+1) -1) * quicksum( f[k,t] * x[k,t] 
+                                        - quicksum( s[k,j] * y[k,t,j]  for j in range(1, (kappa[k]+1) +1))
+                                        + quicksum( o[k,r,t,j] * w[k,r,t,j] for r in R for j in range(0, (kappa[k]) +1))
+                                        + mc[k,t] * z[k,t,alpha[k]]
+                                      for k in K)  
+                  for t_,t in enumerate(T) )
         
-        , GRB.MINIMIZE)
+          +quicksum( beta**( (t_+1) -1) * quicksum( p[c] * u[c,t] + F * g[c] * v[c,t] for c in CT) for t_,t in enumerate(T) )
+          +quicksum( beta**( (t_+1) -1) * p_tilde * u_tilde[t] for t_,t in enumerate(T) )
+          
+          , GRB.MINIMIZE)
+    
+  else:
+    if params['fin_horizonte']: 
+      mo.setObjective(
+          quicksum( beta**( (t_+1) -1) * quicksum( f[k,t] * x[k,t] 
+                                        - quicksum( s[k,j] * y[k,t,j]  for j in range(1, (kappa[k]+1) +1))
+                                        + quicksum( o[k,r,t,j] * w[k,r,t,j] for r in R for j in range(0, (kappa[k]) +1))
+                                        + mc[k,t] * z[k,t,alpha[k]]
+                                      for k in K)  
+                  for t_,t in enumerate(T) )
+        
+          +quicksum( beta**( (t_+1) -1) * quicksum( p[c] * u[c,t] + F * g[c] * v[c,t] for c in CT) for t_,t in enumerate(T) )
+          +quicksum( beta**( (t_+1) -1) * p_tilde * u_tilde[t] for t_,t in enumerate(T) )
+          
+          +quicksum( beta**( num_per + i - 1 ) * o[k,r,t_F,j+i] * w[k,r,t_F,j]
+                    for k in K for r in R for j in range(0, (kappa[k]-1) +1) for i in range(1, (kappa[k]-j) +1) ) 
+          - quicksum( beta**( num_per + kappa[k] - j ) * s[k,kappa[k]+1] * z[k,t_F,j] for k in K for j in range(0, (kappa[k]) +1) ) 
+          + quicksum( beta**( num_per + alpha[k] - j - 1 ) * mc[k,t_F] * z[k,t_F,j] for k in K for j in range(0, (alpha[k]-1) +1 ) )
+          , GRB.MINIMIZE)
+    else:
+        mo.setObjective(
+          quicksum( beta**( (t_+1) -1) * quicksum( f[k,t] * x[k,t] 
+                                        - quicksum( s[k,j] * y[k,t,j]  for j in range(1, (kappa[k]+1) +1))
+                                        + quicksum( o[k,r,t,j] * w[k,r,t,j] for r in R for j in range(0, (kappa[k]) +1))
+                                        + mc[k,t] * z[k,t,alpha[k]]
+                                      for k in K)  
+                  for t_,t in enumerate(T) )
+        
+          +quicksum( beta**( (t_+1) -1) * quicksum( p[c] * u[c,t] + F * g[c] * v[c,t] for c in CT) for t_,t in enumerate(T) )
+          +quicksum( beta**( (t_+1) -1) * p_tilde * u_tilde[t] for t_,t in enumerate(T) )
+          
+          , GRB.MINIMIZE)
 
   # Restricciones
 
@@ -374,4 +523,4 @@ def Transicion_flota_modelo(L,CT,T,K,J_K,J_K_tilde,K_E,C,alpha,R,beta,f,s,kappa,
   #mo.computeIIS()
   #mo.write('infactible.ilp')
   
-  return mo,x,y,z,w,u,v,b,u_tilde,v_tilde,sol_salida
+  return mo,x,y,z,w,u,v,b,u_tilde,v_tilde,w_diesel,w_energia,sol_salida
