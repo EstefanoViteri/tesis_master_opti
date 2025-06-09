@@ -1129,3 +1129,60 @@ def graficar_asignacion_autobuses_por_ruta(informacion, variable):
     nom_grafico = 'Asignacion_autobuses_por_ruta_escenarios.pdf'
     plt.savefig(nom_grafico, format=nom_grafico.split('.')[-1], dpi=300, bbox_inches='tight')
     plt.show()
+
+def graficar_heatmap(diccionario_resultados, variable, cmap='viridis', destacar_valor=None,vmin=None, vmax=None):
+    """
+    Genera un heatmap a partir de un diccionario cuyos keys son tuplas (diesel, energia)
+    y cuyos valores son diccionarios con resultados para distintas variables.
+    
+    Parámetros:
+    - diccionario_resultados: dict con claves (diesel, energia)
+    - variable: str, nombre de la variable interna que se quiere graficar
+    - cmap: str, nombre del mapa de colores de matplotlib (opcional)
+    - destacar_valor: tuple (diesel, energia), valor a destacar con un recuadro en el gráfico
+    """
+    # Convertir el diccionario en DataFrame plano
+    df = pd.DataFrame([
+        {'diesel': k[0], 'energia': k[1], **v} 
+        for k, v in diccionario_resultados.items()
+    ])
+
+    if variable not in df.columns:
+        raise ValueError(f"La variable '{variable}' no está presente en los datos.")
+
+    # Crear tabla pivot para el heatmap
+    tabla = df.pivot(index='energia', columns='diesel', values=variable)
+    
+    # Obtener coordenadas para la imagen
+    x_vals = tabla.columns.to_numpy()
+    y_vals = tabla.index.to_numpy()
+    if 'años' in variable:
+        vmin = 2025
+        vmax = 2050
+    plt.figure(figsize=(10, 8))
+    heatmap = plt.imshow(tabla, aspect='auto', origin='lower', 
+                         extent=[x_vals.min(), x_vals.max(), y_vals.min(), y_vals.max()],
+                         cmap=cmap, vmin=vmin, vmax=vmax)
+
+    plt.colorbar(heatmap, label=variable)
+    plt.xlabel("Costo del diésel")
+    plt.ylabel("Costo de la energía")
+    plt.title(f"Heatmap de {variable}")
+
+    # Dibujar recuadro si se proporciona un valor a destacar
+    if destacar_valor:
+        diesel_real, energia_real = destacar_valor
+
+        # Calcular tamaño del paso
+        dx = np.diff(x_vals).mean()/2
+        dy = np.diff(y_vals).mean()/2
+
+        # Crear recuadro
+        rect = mpatches.Rectangle(
+            (diesel_real - dx/2, energia_real - dy/2),  # esquina inferior izquierda
+            dx, dy, linewidth=1, edgecolor='red', facecolor='none'
+        )
+        plt.gca().add_patch(rect)
+
+    plt.tight_layout()
+    plt.show()

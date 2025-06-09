@@ -1,0 +1,3334 @@
+{
+  "0.19000,0.03300": {
+    "Funcion Objetivo": 37961232.824,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2044,
+    "Tiempo de Solucion": 100.56,
+    "Gap": 0.01
+  },
+  "0.19000,0.04300": {
+    "Funcion Objetivo": 38510750.228,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 169.21,
+    "Gap": 0.01
+  },
+  "0.19000,0.05300": {
+    "Funcion Objetivo": 39020943.36,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 64.4,
+    "Gap": 0.01
+  },
+  "0.19000,0.06300": {
+    "Funcion Objetivo": 39472662.399,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 52.24,
+    "Gap": 0.01
+  },
+  "0.19000,0.07300": {
+    "Funcion Objetivo": 39889707.919,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 89.16,
+    "Gap": 0.01
+  },
+  "0.19000,0.08300": {
+    "Funcion Objetivo": 40303270.934,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 120.47,
+    "Gap": 0.01
+  },
+  "0.19000,0.09300": {
+    "Funcion Objetivo": 40709981.142,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 239.66,
+    "Gap": 0.01
+  },
+  "0.19000,0.10300": {
+    "Funcion Objetivo": 41111997.714,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 47.63,
+    "Gap": 0.01
+  },
+  "0.19000,0.11300": {
+    "Funcion Objetivo": 41475658.435,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 162.6,
+    "Gap": 0.01
+  },
+  "0.19000,0.12300": {
+    "Funcion Objetivo": 41796339.451,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 48.55,
+    "Gap": 0.01
+  },
+  "0.19000,0.13300": {
+    "Funcion Objetivo": 42112031.622,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 182.63,
+    "Gap": 0.01
+  },
+  "0.19000,0.14300": {
+    "Funcion Objetivo": 42419655.768,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 600.09,
+    "Gap": 0.01
+  },
+  "0.19000,0.15300": {
+    "Funcion Objetivo": 42712155.13,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 600.05,
+    "Gap": 0.01
+  },
+  "0.19000,0.16300": {
+    "Funcion Objetivo": 42959415.444,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 600.04,
+    "Gap": 0.01
+  },
+  "0.19000,0.17300": {
+    "Funcion Objetivo": 43204700.235,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 600.08,
+    "Gap": 0.01
+  },
+  "0.19000,0.18300": {
+    "Funcion Objetivo": 43449497.178,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 496.39,
+    "Gap": 0.01
+  },
+  "0.19000,0.19300": {
+    "Funcion Objetivo": 43693556.669,
+    "Numero a\u00f1os 50 electrificado": null,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 600.08,
+    "Gap": 0.01
+  },
+  "0.24000,0.03300": {
+    "Funcion Objetivo": 38702462.016,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2042,
+    "Tiempo de Solucion": 4.95,
+    "Gap": 0.01
+  },
+  "0.24000,0.04300": {
+    "Funcion Objetivo": 39288818.143,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 63.35,
+    "Gap": 0.01
+  },
+  "0.24000,0.05300": {
+    "Funcion Objetivo": 39864672.7,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2044,
+    "Tiempo de Solucion": 264.49,
+    "Gap": 0.01
+  },
+  "0.24000,0.06300": {
+    "Funcion Objetivo": 40420425.131,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 148.29,
+    "Gap": 0.01
+  },
+  "0.24000,0.07300": {
+    "Funcion Objetivo": 40949722.864,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 86.54,
+    "Gap": 0.01
+  },
+  "0.24000,0.08300": {
+    "Funcion Objetivo": 41434491.277,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 30.22,
+    "Gap": 0.01
+  },
+  "0.24000,0.09300": {
+    "Funcion Objetivo": 41854455.41,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 62.64,
+    "Gap": 0.01
+  },
+  "0.24000,0.10300": {
+    "Funcion Objetivo": 42271290.478,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 80.16,
+    "Gap": 0.01
+  },
+  "0.24000,0.11300": {
+    "Funcion Objetivo": 42682556.161,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 283.4,
+    "Gap": 0.01
+  },
+  "0.24000,0.12300": {
+    "Funcion Objetivo": 43087849.098,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 181.08,
+    "Gap": 0.01
+  },
+  "0.24000,0.13300": {
+    "Funcion Objetivo": 43482229.09,
+    "Numero a\u00f1os 50 electrificado": 2043,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 381.5,
+    "Gap": 0.01
+  },
+  "0.24000,0.14300": {
+    "Funcion Objetivo": 43827847.567,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 230.96,
+    "Gap": 0.0
+  },
+  "0.24000,0.15300": {
+    "Funcion Objetivo": 44147290.874,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 64.07,
+    "Gap": 0.01
+  },
+  "0.24000,0.16300": {
+    "Funcion Objetivo": 44462334.18,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 49.28,
+    "Gap": 0.01
+  },
+  "0.24000,0.17300": {
+    "Funcion Objetivo": 44770481.417,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 325.58,
+    "Gap": 0.01
+  },
+  "0.24000,0.18300": {
+    "Funcion Objetivo": 45053744.899,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 243.16,
+    "Gap": 0.01
+  },
+  "0.24000,0.19300": {
+    "Funcion Objetivo": 45300342.623,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 184.81,
+    "Gap": 0.01
+  },
+  "0.29000,0.03300": {
+    "Funcion Objetivo": 39376943.96,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 3.82,
+    "Gap": 0.01
+  },
+  "0.29000,0.04300": {
+    "Funcion Objetivo": 39990045.214,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 61.18,
+    "Gap": 0.01
+  },
+  "0.29000,0.05300": {
+    "Funcion Objetivo": 40592522.51,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2042,
+    "Tiempo de Solucion": 15.88,
+    "Gap": 0.01
+  },
+  "0.29000,0.06300": {
+    "Funcion Objetivo": 41186019.875,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 5.76,
+    "Gap": 0.01
+  },
+  "0.29000,0.07300": {
+    "Funcion Objetivo": 41763234.044,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 74.32,
+    "Gap": 0.01
+  },
+  "0.29000,0.08300": {
+    "Funcion Objetivo": 42329714.498,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2044,
+    "Tiempo de Solucion": 397.86,
+    "Gap": 0.01
+  },
+  "0.29000,0.09300": {
+    "Funcion Objetivo": 42872606.87,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 156.82,
+    "Gap": 0.01
+  },
+  "0.29000,0.10300": {
+    "Funcion Objetivo": 43379736.954,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 143.49,
+    "Gap": 0.01
+  },
+  "0.29000,0.11300": {
+    "Funcion Objetivo": 43817322.052,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 64.75,
+    "Gap": 0.01
+  },
+  "0.29000,0.12300": {
+    "Funcion Objetivo": 44235336.154,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 115.77,
+    "Gap": 0.01
+  },
+  "0.29000,0.13300": {
+    "Funcion Objetivo": 44651370.849,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 275.41,
+    "Gap": 0.01
+  },
+  "0.29000,0.14300": {
+    "Funcion Objetivo": 45052446.71,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 166.82,
+    "Gap": 0.01
+  },
+  "0.29000,0.15300": {
+    "Funcion Objetivo": 45453435.686,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 214.43,
+    "Gap": 0.01
+  },
+  "0.29000,0.16300": {
+    "Funcion Objetivo": 45841211.388,
+    "Numero a\u00f1os 50 electrificado": 2044,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 165.68,
+    "Gap": 0.01
+  },
+  "0.29000,0.17300": {
+    "Funcion Objetivo": 46179705.483,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 174.07,
+    "Gap": 0.01
+  },
+  "0.29000,0.18300": {
+    "Funcion Objetivo": 46497680.749,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 42.05,
+    "Gap": 0.01
+  },
+  "0.29000,0.19300": {
+    "Funcion Objetivo": 46812303.66,
+    "Numero a\u00f1os 50 electrificado": 2050,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 141.01,
+    "Gap": 0.01
+  },
+  "0.34000,0.03300": {
+    "Funcion Objetivo": 39975892.404,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 11.38,
+    "Gap": 0.01
+  },
+  "0.34000,0.04300": {
+    "Funcion Objetivo": 40623265.788,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2038,
+    "Tiempo de Solucion": 4.39,
+    "Gap": 0.01
+  },
+  "0.34000,0.05300": {
+    "Funcion Objetivo": 41254674.874,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 51.57,
+    "Gap": 0.01
+  },
+  "0.34000,0.06300": {
+    "Funcion Objetivo": 41873882.543,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 13.47,
+    "Gap": 0.01
+  },
+  "0.34000,0.07300": {
+    "Funcion Objetivo": 42481968.345,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2042,
+    "Tiempo de Solucion": 109.17,
+    "Gap": 0.01
+  },
+  "0.34000,0.08300": {
+    "Funcion Objetivo": 43077659.532,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 19.02,
+    "Gap": 0.01
+  },
+  "0.34000,0.09300": {
+    "Funcion Objetivo": 43660260.568,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 117.14,
+    "Gap": 0.01
+  },
+  "0.34000,0.10300": {
+    "Funcion Objetivo": 44232866.37,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2044,
+    "Tiempo de Solucion": 216.77,
+    "Gap": 0.01
+  },
+  "0.34000,0.11300": {
+    "Funcion Objetivo": 44784969.304,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 77.27,
+    "Gap": 0.01
+  },
+  "0.34000,0.12300": {
+    "Funcion Objetivo": 45307109.706,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 97.63,
+    "Gap": 0.01
+  },
+  "0.34000,0.13300": {
+    "Funcion Objetivo": 45777167.291,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 87.21,
+    "Gap": 0.01
+  },
+  "0.34000,0.14300": {
+    "Funcion Objetivo": 46195266.828,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 101.96,
+    "Gap": 0.01
+  },
+  "0.34000,0.15300": {
+    "Funcion Objetivo": 46607786.46,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 63.94,
+    "Gap": 0.01
+  },
+  "0.34000,0.16300": {
+    "Funcion Objetivo": 47016257.554,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 161.26,
+    "Gap": 0.01
+  },
+  "0.34000,0.17300": {
+    "Funcion Objetivo": 47417344.932,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 119.28,
+    "Gap": 0.01
+  },
+  "0.34000,0.18300": {
+    "Funcion Objetivo": 47818307.567,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 143.48,
+    "Gap": 0.01
+  },
+  "0.34000,0.19300": {
+    "Funcion Objetivo": 48199249.332,
+    "Numero a\u00f1os 50 electrificado": 2044,
+    "Numero a\u00f1os 100 electrificado": null,
+    "Tiempo de Solucion": 232.63,
+    "Gap": 0.01
+  },
+  "0.39000,0.03300": {
+    "Funcion Objetivo": 40510651.085,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 5.31,
+    "Gap": 0.01
+  },
+  "0.39000,0.04300": {
+    "Funcion Objetivo": 41184103.054,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.74,
+    "Gap": 0.01
+  },
+  "0.39000,0.05300": {
+    "Funcion Objetivo": 41846150.723,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 4.08,
+    "Gap": 0.01
+  },
+  "0.39000,0.06300": {
+    "Funcion Objetivo": 42494157.799,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 41.35,
+    "Gap": 0.01
+  },
+  "0.39000,0.07300": {
+    "Funcion Objetivo": 43131466.478,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 4.14,
+    "Gap": 0.01
+  },
+  "0.39000,0.08300": {
+    "Funcion Objetivo": 43757522.666,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2040,
+    "Tiempo de Solucion": 5.08,
+    "Gap": 0.01
+  },
+  "0.39000,0.09300": {
+    "Funcion Objetivo": 44368474.045,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2042,
+    "Tiempo de Solucion": 79.96,
+    "Gap": 0.01
+  },
+  "0.39000,0.10300": {
+    "Funcion Objetivo": 44967447.902,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 200.94,
+    "Gap": 0.0
+  },
+  "0.39000,0.11300": {
+    "Funcion Objetivo": 45557413.511,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 7.62,
+    "Gap": 0.01
+  },
+  "0.39000,0.12300": {
+    "Funcion Objetivo": 46133371.138,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 225.15,
+    "Gap": 0.01
+  },
+  "0.39000,0.13300": {
+    "Funcion Objetivo": 46693642.38,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 71.14,
+    "Gap": 0.01
+  },
+  "0.39000,0.14300": {
+    "Funcion Objetivo": 47223890.233,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 49.48,
+    "Gap": 0.01
+  },
+  "0.39000,0.15300": {
+    "Funcion Objetivo": 47725910.399,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 40.39,
+    "Gap": 0.01
+  },
+  "0.39000,0.16300": {
+    "Funcion Objetivo": 48150574.946,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 69.4,
+    "Gap": 0.01
+  },
+  "0.39000,0.17300": {
+    "Funcion Objetivo": 48563152.264,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 103.23,
+    "Gap": 0.01
+  },
+  "0.39000,0.18300": {
+    "Funcion Objetivo": 48973228.99,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 84.89,
+    "Gap": 0.01
+  },
+  "0.39000,0.19300": {
+    "Funcion Objetivo": 49380931.974,
+    "Numero a\u00f1os 50 electrificado": 2036,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 164.33,
+    "Gap": 0.01
+  },
+  "0.44000,0.03300": {
+    "Funcion Objetivo": 40977888.632,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.39,
+    "Gap": 0.01
+  },
+  "0.44000,0.04300": {
+    "Funcion Objetivo": 41682232.723,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.22,
+    "Gap": 0.01
+  },
+  "0.44000,0.05300": {
+    "Funcion Objetivo": 42369711.523,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.11,
+    "Gap": 0.0
+  },
+  "0.44000,0.06300": {
+    "Funcion Objetivo": 43047109.732,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.35,
+    "Gap": 0.0
+  },
+  "0.44000,0.07300": {
+    "Funcion Objetivo": 43712528.937,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 3.4,
+    "Gap": 0.0
+  },
+  "0.44000,0.08300": {
+    "Funcion Objetivo": 44364468.791,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 10.61,
+    "Gap": 0.01
+  },
+  "0.44000,0.09300": {
+    "Funcion Objetivo": 45008323.709,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2038,
+    "Tiempo de Solucion": 4.61,
+    "Gap": 0.01
+  },
+  "0.44000,0.10300": {
+    "Funcion Objetivo": 45637541.156,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 137.8,
+    "Gap": 0.01
+  },
+  "0.44000,0.11300": {
+    "Funcion Objetivo": 46252404.237,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 4.43,
+    "Gap": 0.01
+  },
+  "0.44000,0.12300": {
+    "Funcion Objetivo": 46857683.874,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2042,
+    "Tiempo de Solucion": 17.53,
+    "Gap": 0.01
+  },
+  "0.44000,0.13300": {
+    "Funcion Objetivo": 47450377.165,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2042,
+    "Tiempo de Solucion": 7.82,
+    "Gap": 0.01
+  },
+  "0.44000,0.14300": {
+    "Funcion Objetivo": 48029672.854,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 155.47,
+    "Gap": 0.01
+  },
+  "0.44000,0.15300": {
+    "Funcion Objetivo": 48600334.619,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2044,
+    "Tiempo de Solucion": 323.06,
+    "Gap": 0.01
+  },
+  "0.44000,0.16300": {
+    "Funcion Objetivo": 49137138.202,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 51.28,
+    "Gap": 0.01
+  },
+  "0.44000,0.17300": {
+    "Funcion Objetivo": 49649548.868,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 46.89,
+    "Gap": 0.01
+  },
+  "0.44000,0.18300": {
+    "Funcion Objetivo": 50104176.586,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 88.88,
+    "Gap": 0.01
+  },
+  "0.44000,0.19300": {
+    "Funcion Objetivo": 50517277.715,
+    "Numero a\u00f1os 50 electrificado": 2037,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 91.79,
+    "Gap": 0.01
+  },
+  "0.49000,0.03300": {
+    "Funcion Objetivo": 41400479.116,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 15.43,
+    "Gap": 0.01
+  },
+  "0.49000,0.04300": {
+    "Funcion Objetivo": 42114605.704,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.25,
+    "Gap": 0.01
+  },
+  "0.49000,0.05300": {
+    "Funcion Objetivo": 42827372.23,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.08,
+    "Gap": 0.01
+  },
+  "0.49000,0.06300": {
+    "Funcion Objetivo": 43532657.083,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 2.81,
+    "Gap": 0.0
+  },
+  "0.49000,0.07300": {
+    "Funcion Objetivo": 44226316.146,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.81,
+    "Gap": 0.01
+  },
+  "0.49000,0.08300": {
+    "Funcion Objetivo": 44909269.02,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 4.18,
+    "Gap": 0.01
+  },
+  "0.49000,0.09300": {
+    "Funcion Objetivo": 45578317.738,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 5.9,
+    "Gap": 0.01
+  },
+  "0.49000,0.10300": {
+    "Funcion Objetivo": 46233373.148,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 28.84,
+    "Gap": 0.01
+  },
+  "0.49000,0.11300": {
+    "Funcion Objetivo": 46880132.293,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 13.9,
+    "Gap": 0.01
+  },
+  "0.49000,0.12300": {
+    "Funcion Objetivo": 47513489.1,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2038,
+    "Tiempo de Solucion": 11.77,
+    "Gap": 0.01
+  },
+  "0.49000,0.13300": {
+    "Funcion Objetivo": 48136463.308,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 3.79,
+    "Gap": 0.01
+  },
+  "0.49000,0.14300": {
+    "Funcion Objetivo": 48744176.798,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2040,
+    "Tiempo de Solucion": 19.07,
+    "Gap": 0.01
+  },
+  "0.49000,0.15300": {
+    "Funcion Objetivo": 49340314.565,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2040,
+    "Tiempo de Solucion": 4.42,
+    "Gap": 0.01
+  },
+  "0.49000,0.16300": {
+    "Funcion Objetivo": 49925430.691,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 159.94,
+    "Gap": 0.01
+  },
+  "0.49000,0.17300": {
+    "Funcion Objetivo": 50500899.339,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 223.59,
+    "Gap": 0.01
+  },
+  "0.49000,0.18300": {
+    "Funcion Objetivo": 51048116.531,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 101.09,
+    "Gap": 0.01
+  },
+  "0.49000,0.19300": {
+    "Funcion Objetivo": 51566464.281,
+    "Numero a\u00f1os 50 electrificado": 2035,
+    "Numero a\u00f1os 100 electrificado": 2050,
+    "Tiempo de Solucion": 46.34,
+    "Gap": 0.01
+  },
+  "0.54000,0.03300": {
+    "Funcion Objetivo": 41821438.92,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.48,
+    "Gap": 0.01
+  },
+  "0.54000,0.04300": {
+    "Funcion Objetivo": 42535747.784,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.36,
+    "Gap": 0.01
+  },
+  "0.54000,0.05300": {
+    "Funcion Objetivo": 43249866.778,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.94,
+    "Gap": 0.01
+  },
+  "0.54000,0.06300": {
+    "Funcion Objetivo": 43963993.366,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.17,
+    "Gap": 0.01
+  },
+  "0.54000,0.07300": {
+    "Funcion Objetivo": 44678080.126,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 5.48,
+    "Gap": 0.0
+  },
+  "0.54000,0.08300": {
+    "Funcion Objetivo": 45384224.323,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 7.37,
+    "Gap": 0.01
+  },
+  "0.54000,0.09300": {
+    "Funcion Objetivo": 46084858.764,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.24,
+    "Gap": 0.01
+  },
+  "0.54000,0.10300": {
+    "Funcion Objetivo": 46769999.604,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.12,
+    "Gap": 0.01
+  },
+  "0.54000,0.11300": {
+    "Funcion Objetivo": 47440913.691,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.23,
+    "Gap": 0.01
+  },
+  "0.54000,0.12300": {
+    "Funcion Objetivo": 48104575.463,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.02,
+    "Gap": 0.01
+  },
+  "0.54000,0.13300": {
+    "Funcion Objetivo": 48751546.518,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 44.16,
+    "Gap": 0.01
+  },
+  "0.54000,0.14300": {
+    "Funcion Objetivo": 49389106.508,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2038,
+    "Tiempo de Solucion": 13.79,
+    "Gap": 0.01
+  },
+  "0.54000,0.15300": {
+    "Funcion Objetivo": 50016237.095,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2038,
+    "Tiempo de Solucion": 15.23,
+    "Gap": 0.01
+  },
+  "0.54000,0.16300": {
+    "Funcion Objetivo": 50628108.108,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 29.34,
+    "Gap": 0.01
+  },
+  "0.54000,0.17300": {
+    "Funcion Objetivo": 51229524.613,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 15.84,
+    "Gap": 0.01
+  },
+  "0.54000,0.18300": {
+    "Funcion Objetivo": 51820137.305,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2044,
+    "Tiempo de Solucion": 8.03,
+    "Gap": 0.01
+  },
+  "0.54000,0.19300": {
+    "Funcion Objetivo": 52396771.938,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2043,
+    "Tiempo de Solucion": 99.24,
+    "Gap": 0.01
+  },
+  "0.59000,0.03300": {
+    "Funcion Objetivo": 42241581.758,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.51,
+    "Gap": 0.01
+  },
+  "0.59000,0.04300": {
+    "Funcion Objetivo": 42956006.103,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 23.0,
+    "Gap": 0.01
+  },
+  "0.59000,0.05300": {
+    "Funcion Objetivo": 43670450.958,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.28,
+    "Gap": 0.01
+  },
+  "0.59000,0.06300": {
+    "Funcion Objetivo": 44384895.813,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.88,
+    "Gap": 0.01
+  },
+  "0.59000,0.07300": {
+    "Funcion Objetivo": 45099187.384,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.54,
+    "Gap": 0.01
+  },
+  "0.59000,0.08300": {
+    "Funcion Objetivo": 45813399.529,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.47,
+    "Gap": 0.01
+  },
+  "0.59000,0.09300": {
+    "Funcion Objetivo": 46527632.184,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.47,
+    "Gap": 0.01
+  },
+  "0.59000,0.10300": {
+    "Funcion Objetivo": 47235806.645,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 7.59,
+    "Gap": 0.01
+  },
+  "0.59000,0.11300": {
+    "Funcion Objetivo": 47940840.951,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 2.99,
+    "Gap": 0.01
+  },
+  "0.59000,0.12300": {
+    "Funcion Objetivo": 48627110.459,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 6.94,
+    "Gap": 0.01
+  },
+  "0.59000,0.13300": {
+    "Funcion Objetivo": 49303936.298,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 6.66,
+    "Gap": 0.0
+  },
+  "0.59000,0.14300": {
+    "Funcion Objetivo": 49970136.05,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.49,
+    "Gap": 0.01
+  },
+  "0.59000,0.15300": {
+    "Funcion Objetivo": 50621097.314,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.98,
+    "Gap": 0.01
+  },
+  "0.59000,0.16300": {
+    "Funcion Objetivo": 51263996.584,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 40.81,
+    "Gap": 0.01
+  },
+  "0.59000,0.17300": {
+    "Funcion Objetivo": 51893369.003,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 113.08,
+    "Gap": 0.01
+  },
+  "0.59000,0.18300": {
+    "Funcion Objetivo": 52510138.759,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2039,
+    "Tiempo de Solucion": 4.03,
+    "Gap": 0.0
+  },
+  "0.59000,0.19300": {
+    "Funcion Objetivo": 53117154.001,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2040,
+    "Tiempo de Solucion": 83.4,
+    "Gap": 0.01
+  },
+  "0.64000,0.03300": {
+    "Funcion Objetivo": 42661368.572,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.4,
+    "Gap": 0.01
+  },
+  "0.64000,0.04300": {
+    "Funcion Objetivo": 43375730.474,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 31.4,
+    "Gap": 0.01
+  },
+  "0.64000,0.05300": {
+    "Funcion Objetivo": 44090356.962,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.35,
+    "Gap": 0.01
+  },
+  "0.64000,0.06300": {
+    "Funcion Objetivo": 44804983.45,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.93,
+    "Gap": 0.01
+  },
+  "0.64000,0.07300": {
+    "Funcion Objetivo": 45519376.072,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 7.12,
+    "Gap": 0.01
+  },
+  "0.64000,0.08300": {
+    "Funcion Objetivo": 46233820.927,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.16,
+    "Gap": 0.01
+  },
+  "0.64000,0.09300": {
+    "Funcion Objetivo": 46948265.782,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 28.88,
+    "Gap": 0.01
+  },
+  "0.64000,0.10300": {
+    "Funcion Objetivo": 47662548.528,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.78,
+    "Gap": 0.01
+  },
+  "0.64000,0.11300": {
+    "Funcion Objetivo": 48376872.412,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.62,
+    "Gap": 0.01
+  },
+  "0.64000,0.12300": {
+    "Funcion Objetivo": 49087089.065,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.02,
+    "Gap": 0.01
+  },
+  "0.64000,0.13300": {
+    "Funcion Objetivo": 49792566.024,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.88,
+    "Gap": 0.0
+  },
+  "0.64000,0.14300": {
+    "Funcion Objetivo": 50484096.019,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.34,
+    "Gap": 0.01
+  },
+  "0.64000,0.15300": {
+    "Funcion Objetivo": 51167770.688,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.91,
+    "Gap": 0.01
+  },
+  "0.64000,0.16300": {
+    "Funcion Objetivo": 51834410.131,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.05,
+    "Gap": 0.01
+  },
+  "0.64000,0.17300": {
+    "Funcion Objetivo": 52490341.315,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.51,
+    "Gap": 0.01
+  },
+  "0.64000,0.18300": {
+    "Funcion Objetivo": 53136160.863,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 43.44,
+    "Gap": 0.01
+  },
+  "0.64000,0.19300": {
+    "Funcion Objetivo": 53768837.405,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2037,
+    "Tiempo de Solucion": 3.68,
+    "Gap": 0.0
+  },
+  "0.69000,0.03300": {
+    "Funcion Objetivo": 43080229.049,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.62,
+    "Gap": 0.01
+  },
+  "0.69000,0.04300": {
+    "Funcion Objetivo": 43794811.589,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.23,
+    "Gap": 0.01
+  },
+  "0.69000,0.05300": {
+    "Funcion Objetivo": 44509770.249,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 7.93,
+    "Gap": 0.01
+  },
+  "0.69000,0.06300": {
+    "Funcion Objetivo": 45224591.903,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.37,
+    "Gap": 0.01
+  },
+  "0.69000,0.07300": {
+    "Funcion Objetivo": 45939207.077,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 24.88,
+    "Gap": 0.01
+  },
+  "0.69000,0.08300": {
+    "Funcion Objetivo": 46653679.925,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.13,
+    "Gap": 0.0
+  },
+  "0.69000,0.09300": {
+    "Funcion Objetivo": 47368306.412,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.43,
+    "Gap": 0.01
+  },
+  "0.69000,0.10300": {
+    "Funcion Objetivo": 48082746.04,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.41,
+    "Gap": 0.01
+  },
+  "0.69000,0.11300": {
+    "Funcion Objetivo": 48797190.895,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.39,
+    "Gap": 0.01
+  },
+  "0.69000,0.12300": {
+    "Funcion Objetivo": 49511635.75,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.56,
+    "Gap": 0.0
+  },
+  "0.69000,0.13300": {
+    "Funcion Objetivo": 50226080.605,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.56,
+    "Gap": 0.01
+  },
+  "0.69000,0.14300": {
+    "Funcion Objetivo": 50938371.485,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.25,
+    "Gap": 0.01
+  },
+  "0.69000,0.15300": {
+    "Funcion Objetivo": 51643848.444,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.0,
+    "Gap": 0.01
+  },
+  "0.69000,0.16300": {
+    "Funcion Objetivo": 52340939.747,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.33,
+    "Gap": 0.0
+  },
+  "0.69000,0.17300": {
+    "Funcion Objetivo": 53027584.792,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.75,
+    "Gap": 0.01
+  },
+  "0.69000,0.18300": {
+    "Funcion Objetivo": 53697369.313,
+    "Numero a\u00f1os 50 electrificado": 2033,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.91,
+    "Gap": 0.01
+  },
+  "0.69000,0.19300": {
+    "Funcion Objetivo": 54359173.395,
+    "Numero a\u00f1os 50 electrificado": 2034,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.82,
+    "Gap": 0.01
+  },
+  "0.74000,0.03300": {
+    "Funcion Objetivo": 43497551.854,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 15.37,
+    "Gap": 0.0
+  },
+  "0.74000,0.04300": {
+    "Funcion Objetivo": 44212742.781,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 11.91,
+    "Gap": 0.01
+  },
+  "0.74000,0.05300": {
+    "Funcion Objetivo": 44927981.337,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 19.43,
+    "Gap": 0.01
+  },
+  "0.74000,0.06300": {
+    "Funcion Objetivo": 45642976.14,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 22.57,
+    "Gap": 0.01
+  },
+  "0.74000,0.07300": {
+    "Funcion Objetivo": 46357917.366,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.02,
+    "Gap": 0.01
+  },
+  "0.74000,0.08300": {
+    "Funcion Objetivo": 47072858.592,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.28,
+    "Gap": 0.01
+  },
+  "0.74000,0.09300": {
+    "Funcion Objetivo": 47787648.373,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.46,
+    "Gap": 0.01
+  },
+  "0.74000,0.10300": {
+    "Funcion Objetivo": 48502429.061,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.92,
+    "Gap": 0.01
+  },
+  "0.74000,0.11300": {
+    "Funcion Objetivo": 49217209.75,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.67,
+    "Gap": 0.01
+  },
+  "0.74000,0.12300": {
+    "Funcion Objetivo": 49931990.438,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 7.65,
+    "Gap": 0.01
+  },
+  "0.74000,0.13300": {
+    "Funcion Objetivo": 50646116.008,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 31.86,
+    "Gap": 0.01
+  },
+  "0.74000,0.14300": {
+    "Funcion Objetivo": 51360560.863,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.15,
+    "Gap": 0.01
+  },
+  "0.74000,0.15300": {
+    "Funcion Objetivo": 52075005.719,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.09,
+    "Gap": 0.01
+  },
+  "0.74000,0.16300": {
+    "Funcion Objetivo": 52789450.574,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.04,
+    "Gap": 0.01
+  },
+  "0.74000,0.17300": {
+    "Funcion Objetivo": 53495130.864,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.57,
+    "Gap": 0.01
+  },
+  "0.74000,0.18300": {
+    "Funcion Objetivo": 54197706.969,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.16,
+    "Gap": 0.01
+  },
+  "0.74000,0.19300": {
+    "Funcion Objetivo": 54884697.475,
+    "Numero a\u00f1os 50 electrificado": 2032,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.69,
+    "Gap": 0.01
+  },
+  "0.79000,0.03300": {
+    "Funcion Objetivo": 43915915.71,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.41,
+    "Gap": 0.01
+  },
+  "0.79000,0.04300": {
+    "Funcion Objetivo": 44630568.764,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 15.09,
+    "Gap": 0.0
+  },
+  "0.79000,0.05300": {
+    "Funcion Objetivo": 45345816.169,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.63,
+    "Gap": 0.01
+  },
+  "0.79000,0.06300": {
+    "Funcion Objetivo": 46060937.747,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.04,
+    "Gap": 0.01
+  },
+  "0.79000,0.07300": {
+    "Funcion Objetivo": 46776059.324,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.81,
+    "Gap": 0.01
+  },
+  "0.79000,0.08300": {
+    "Funcion Objetivo": 47491180.902,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.96,
+    "Gap": 0.01
+  },
+  "0.79000,0.09300": {
+    "Funcion Objetivo": 48206302.48,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.37,
+    "Gap": 0.01
+  },
+  "0.79000,0.10300": {
+    "Funcion Objetivo": 48921125.28,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.25,
+    "Gap": 0.01
+  },
+  "0.79000,0.11300": {
+    "Funcion Objetivo": 49636066.506,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.85,
+    "Gap": 0.01
+  },
+  "0.79000,0.12300": {
+    "Funcion Objetivo": 50351007.731,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.26,
+    "Gap": 0.01
+  },
+  "0.79000,0.13300": {
+    "Funcion Objetivo": 51065948.957,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.04,
+    "Gap": 0.01
+  },
+  "0.79000,0.14300": {
+    "Funcion Objetivo": 51780681.847,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.53,
+    "Gap": 0.01
+  },
+  "0.79000,0.15300": {
+    "Funcion Objetivo": 52494952.337,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 23.45,
+    "Gap": 0.01
+  },
+  "0.79000,0.16300": {
+    "Funcion Objetivo": 53209485.977,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 30.42,
+    "Gap": 0.01
+  },
+  "0.79000,0.17300": {
+    "Funcion Objetivo": 53923930.832,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 14.45,
+    "Gap": 0.01
+  },
+  "0.79000,0.18300": {
+    "Funcion Objetivo": 54638375.687,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 3.42,
+    "Gap": 0.01
+  },
+  "0.79000,0.19300": {
+    "Funcion Objetivo": 55346436.324,
+    "Numero a\u00f1os 50 electrificado": 2031,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 2.7,
+    "Gap": 0.01
+  },
+  "0.84000,0.03300": {
+    "Funcion Objetivo": 44334289.084,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.07,
+    "Gap": 0.01
+  },
+  "0.84000,0.04300": {
+    "Funcion Objetivo": 45048413.216,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 7.41,
+    "Gap": 0.01
+  },
+  "0.84000,0.05300": {
+    "Funcion Objetivo": 45763487.911,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 26.12,
+    "Gap": 0.01
+  },
+  "0.84000,0.06300": {
+    "Funcion Objetivo": 46478652.649,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.98,
+    "Gap": 0.01
+  },
+  "0.84000,0.07300": {
+    "Funcion Objetivo": 47193777.949,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.65,
+    "Gap": 0.01
+  },
+  "0.84000,0.08300": {
+    "Funcion Objetivo": 47908899.527,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.1,
+    "Gap": 0.01
+  },
+  "0.84000,0.09300": {
+    "Funcion Objetivo": 48624021.105,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.33,
+    "Gap": 0.01
+  },
+  "0.84000,0.10300": {
+    "Funcion Objetivo": 49339142.683,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.47,
+    "Gap": 0.01
+  },
+  "0.84000,0.11300": {
+    "Funcion Objetivo": 50054264.261,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.89,
+    "Gap": 0.01
+  },
+  "0.84000,0.12300": {
+    "Funcion Objetivo": 50769385.838,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 15.12,
+    "Gap": 0.01
+  },
+  "0.84000,0.13300": {
+    "Funcion Objetivo": 51484507.416,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 32.53,
+    "Gap": 0.01
+  },
+  "0.84000,0.14300": {
+    "Funcion Objetivo": 52199628.994,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.57,
+    "Gap": 0.01
+  },
+  "0.84000,0.15300": {
+    "Funcion Objetivo": 52914092.342,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.85,
+    "Gap": 0.01
+  },
+  "0.84000,0.16300": {
+    "Funcion Objetivo": 53628873.031,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 33.06,
+    "Gap": 0.01
+  },
+  "0.84000,0.17300": {
+    "Funcion Objetivo": 54343653.719,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 34.63,
+    "Gap": 0.01
+  },
+  "0.84000,0.18300": {
+    "Funcion Objetivo": 55058434.408,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 66.56,
+    "Gap": 0.01
+  },
+  "0.84000,0.19300": {
+    "Funcion Objetivo": 55772957.847,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.98,
+    "Gap": 0.01
+  },
+  "0.89000,0.03300": {
+    "Funcion Objetivo": 44749466.733,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.3,
+    "Gap": 0.01
+  },
+  "0.89000,0.04300": {
+    "Funcion Objetivo": 45464945.564,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.61,
+    "Gap": 0.01
+  },
+  "0.89000,0.05300": {
+    "Funcion Objetivo": 46180424.396,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.27,
+    "Gap": 0.01
+  },
+  "0.89000,0.06300": {
+    "Funcion Objetivo": 46895605.751,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 18.48,
+    "Gap": 0.01
+  },
+  "0.89000,0.07300": {
+    "Funcion Objetivo": 47611337.877,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 17.2,
+    "Gap": 0.01
+  },
+  "0.89000,0.08300": {
+    "Funcion Objetivo": 48326950.094,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.93,
+    "Gap": 0.01
+  },
+  "0.89000,0.09300": {
+    "Funcion Objetivo": 49041739.73,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.9,
+    "Gap": 0.01
+  },
+  "0.89000,0.10300": {
+    "Funcion Objetivo": 49756861.308,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 23.38,
+    "Gap": 0.01
+  },
+  "0.89000,0.11300": {
+    "Funcion Objetivo": 50471982.886,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.46,
+    "Gap": 0.01
+  },
+  "0.89000,0.12300": {
+    "Funcion Objetivo": 51187104.463,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.8,
+    "Gap": 0.01
+  },
+  "0.89000,0.13300": {
+    "Funcion Objetivo": 51902226.041,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 24.39,
+    "Gap": 0.01
+  },
+  "0.89000,0.14300": {
+    "Funcion Objetivo": 52617347.619,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.96,
+    "Gap": 0.01
+  },
+  "0.89000,0.15300": {
+    "Funcion Objetivo": 53332469.197,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.33,
+    "Gap": 0.01
+  },
+  "0.89000,0.16300": {
+    "Funcion Objetivo": 54047590.774,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 48.31,
+    "Gap": 0.01
+  },
+  "0.89000,0.17300": {
+    "Funcion Objetivo": 54762712.352,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.55,
+    "Gap": 0.01
+  },
+  "0.89000,0.18300": {
+    "Funcion Objetivo": 55477833.93,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.72,
+    "Gap": 0.01
+  },
+  "0.89000,0.19300": {
+    "Funcion Objetivo": 56192313.285,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 29.95,
+    "Gap": 0.01
+  },
+  "0.94000,0.03300": {
+    "Funcion Objetivo": 45164546.451,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 17.86,
+    "Gap": 0.0
+  },
+  "0.94000,0.04300": {
+    "Funcion Objetivo": 45880278.577,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 7.47,
+    "Gap": 0.01
+  },
+  "0.94000,0.05300": {
+    "Funcion Objetivo": 46595796.112,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 24.59,
+    "Gap": 0.01
+  },
+  "0.94000,0.06300": {
+    "Funcion Objetivo": 47311723.988,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 14.3,
+    "Gap": 0.01
+  },
+  "0.94000,0.07300": {
+    "Funcion Objetivo": 48027673.458,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 11.15,
+    "Gap": 0.01
+  },
+  "0.94000,0.08300": {
+    "Funcion Objetivo": 48743020.354,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.59,
+    "Gap": 0.01
+  },
+  "0.94000,0.09300": {
+    "Funcion Objetivo": 49458678.662,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.09,
+    "Gap": 0.01
+  },
+  "0.94000,0.10300": {
+    "Funcion Objetivo": 50174336.971,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 15.67,
+    "Gap": 0.0
+  },
+  "0.94000,0.11300": {
+    "Funcion Objetivo": 50889701.511,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.28,
+    "Gap": 0.0
+  },
+  "0.94000,0.12300": {
+    "Funcion Objetivo": 51604823.088,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.21,
+    "Gap": 0.01
+  },
+  "0.94000,0.13300": {
+    "Funcion Objetivo": 52319944.666,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.02,
+    "Gap": 0.01
+  },
+  "0.94000,0.14300": {
+    "Funcion Objetivo": 53035066.244,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.04,
+    "Gap": 0.01
+  },
+  "0.94000,0.15300": {
+    "Funcion Objetivo": 53750187.822,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 9.81,
+    "Gap": 0.01
+  },
+  "0.94000,0.16300": {
+    "Funcion Objetivo": 54465309.4,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 37.99,
+    "Gap": 0.01
+  },
+  "0.94000,0.17300": {
+    "Funcion Objetivo": 55180430.977,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.52,
+    "Gap": 0.0
+  },
+  "0.94000,0.18300": {
+    "Funcion Objetivo": 55895552.555,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 52.17,
+    "Gap": 0.01
+  },
+  "0.94000,0.19300": {
+    "Funcion Objetivo": 56610674.133,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.24,
+    "Gap": 0.01
+  },
+  "0.99000,0.03300": {
+    "Funcion Objetivo": 45579202.787,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 18.42,
+    "Gap": 0.01
+  },
+  "0.99000,0.04300": {
+    "Funcion Objetivo": 46295152.257,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 44.76,
+    "Gap": 0.01
+  },
+  "0.99000,0.05300": {
+    "Funcion Objetivo": 47011101.728,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 50.02,
+    "Gap": 0.01
+  },
+  "0.99000,0.06300": {
+    "Funcion Objetivo": 47727051.198,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 18.53,
+    "Gap": 0.01
+  },
+  "0.99000,0.07300": {
+    "Funcion Objetivo": 48443000.668,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 16.44,
+    "Gap": 0.01
+  },
+  "0.99000,0.08300": {
+    "Funcion Objetivo": 49158950.138,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 13.15,
+    "Gap": 0.0
+  },
+  "0.99000,0.09300": {
+    "Funcion Objetivo": 49874588.564,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.12,
+    "Gap": 0.01
+  },
+  "0.99000,0.10300": {
+    "Funcion Objetivo": 50590246.872,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.13,
+    "Gap": 0.01
+  },
+  "0.99000,0.11300": {
+    "Funcion Objetivo": 51305905.18,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 15.88,
+    "Gap": 0.0
+  },
+  "0.99000,0.12300": {
+    "Funcion Objetivo": 52021563.489,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 7.92,
+    "Gap": 0.01
+  },
+  "0.99000,0.13300": {
+    "Funcion Objetivo": 52737221.797,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.61,
+    "Gap": 0.01
+  },
+  "0.99000,0.14300": {
+    "Funcion Objetivo": 53452880.105,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 14.43,
+    "Gap": 0.01
+  },
+  "0.99000,0.15300": {
+    "Funcion Objetivo": 54167940.455,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.01,
+    "Gap": 0.0
+  },
+  "0.99000,0.16300": {
+    "Funcion Objetivo": 54883028.025,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.86,
+    "Gap": 0.01
+  },
+  "0.99000,0.17300": {
+    "Funcion Objetivo": 55598149.602,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.87,
+    "Gap": 0.01
+  },
+  "0.99000,0.18300": {
+    "Funcion Objetivo": 56313271.18,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.64,
+    "Gap": 0.01
+  },
+  "0.99000,0.19300": {
+    "Funcion Objetivo": 57028392.758,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.54,
+    "Gap": 0.01
+  },
+  "1.04000,0.03300": {
+    "Funcion Objetivo": 45994670.195,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 63.76,
+    "Gap": 0.01
+  },
+  "1.04000,0.04300": {
+    "Funcion Objetivo": 46710479.468,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 29.03,
+    "Gap": 0.01
+  },
+  "1.04000,0.05300": {
+    "Funcion Objetivo": 47426428.938,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 40.6,
+    "Gap": 0.01
+  },
+  "1.04000,0.06300": {
+    "Funcion Objetivo": 48142378.408,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 10.61,
+    "Gap": 0.01
+  },
+  "1.04000,0.07300": {
+    "Funcion Objetivo": 48858327.878,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 8.19,
+    "Gap": 0.01
+  },
+  "1.04000,0.08300": {
+    "Funcion Objetivo": 49574277.349,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 24.1,
+    "Gap": 0.01
+  },
+  "1.04000,0.09300": {
+    "Funcion Objetivo": 50290226.819,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 26.82,
+    "Gap": 0.01
+  },
+  "1.04000,0.10300": {
+    "Funcion Objetivo": 51006140.403,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 33.1,
+    "Gap": 0.01
+  },
+  "1.04000,0.11300": {
+    "Funcion Objetivo": 51721815.082,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.47,
+    "Gap": 0.01
+  },
+  "1.04000,0.12300": {
+    "Funcion Objetivo": 52437473.39,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.4,
+    "Gap": 0.01
+  },
+  "1.04000,0.13300": {
+    "Funcion Objetivo": 53153131.699,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.68,
+    "Gap": 0.01
+  },
+  "1.04000,0.14300": {
+    "Funcion Objetivo": 53868790.007,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 14.52,
+    "Gap": 0.01
+  },
+  "1.04000,0.15300": {
+    "Funcion Objetivo": 54584448.315,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.22,
+    "Gap": 0.01
+  },
+  "1.04000,0.16300": {
+    "Funcion Objetivo": 55300106.623,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.26,
+    "Gap": 0.01
+  },
+  "1.04000,0.17300": {
+    "Funcion Objetivo": 56015764.931,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 11.13,
+    "Gap": 0.01
+  },
+  "1.04000,0.18300": {
+    "Funcion Objetivo": 56730989.805,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 23.55,
+    "Gap": 0.01
+  },
+  "1.04000,0.19300": {
+    "Funcion Objetivo": 57446111.383,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 10.64,
+    "Gap": 0.01
+  },
+  "1.09000,0.03300": {
+    "Funcion Objetivo": 46409857.208,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 36.11,
+    "Gap": 0.01
+  },
+  "1.09000,0.04300": {
+    "Funcion Objetivo": 47125806.678,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 14.08,
+    "Gap": 0.01
+  },
+  "1.09000,0.05300": {
+    "Funcion Objetivo": 47841756.148,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 32.06,
+    "Gap": 0.01
+  },
+  "1.09000,0.06300": {
+    "Funcion Objetivo": 48557705.619,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 20.5,
+    "Gap": 0.01
+  },
+  "1.09000,0.07300": {
+    "Funcion Objetivo": 49273655.089,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 20.26,
+    "Gap": 0.01
+  },
+  "1.09000,0.08300": {
+    "Funcion Objetivo": 49989604.559,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 44.9,
+    "Gap": 0.01
+  },
+  "1.09000,0.09300": {
+    "Funcion Objetivo": 50705554.029,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 44.77,
+    "Gap": 0.01
+  },
+  "1.09000,0.10300": {
+    "Funcion Objetivo": 51421411.411,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 23.38,
+    "Gap": 0.0
+  },
+  "1.09000,0.11300": {
+    "Funcion Objetivo": 52137238.333,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.39,
+    "Gap": 0.01
+  },
+  "1.09000,0.12300": {
+    "Funcion Objetivo": 52853065.255,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 24.49,
+    "Gap": 0.01
+  },
+  "1.09000,0.13300": {
+    "Funcion Objetivo": 53568892.177,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.13,
+    "Gap": 0.01
+  },
+  "1.09000,0.14300": {
+    "Funcion Objetivo": 54284719.099,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.36,
+    "Gap": 0.01
+  },
+  "1.09000,0.15300": {
+    "Funcion Objetivo": 55000546.021,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.04,
+    "Gap": 0.01
+  },
+  "1.09000,0.16300": {
+    "Funcion Objetivo": 55716372.943,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.55,
+    "Gap": 0.01
+  },
+  "1.09000,0.17300": {
+    "Funcion Objetivo": 56431674.833,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 22.9,
+    "Gap": 0.01
+  },
+  "1.09000,0.18300": {
+    "Funcion Objetivo": 57147333.141,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 20.76,
+    "Gap": 0.01
+  },
+  "1.09000,0.19300": {
+    "Funcion Objetivo": 57862991.449,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.83,
+    "Gap": 0.01
+  },
+  "1.14000,0.03300": {
+    "Funcion Objetivo": 46825184.418,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 71.58,
+    "Gap": 0.01
+  },
+  "1.14000,0.04300": {
+    "Funcion Objetivo": 47541133.888,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 13.8,
+    "Gap": 0.01
+  },
+  "1.14000,0.05300": {
+    "Funcion Objetivo": 48257083.359,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 38.07,
+    "Gap": 0.01
+  },
+  "1.14000,0.06300": {
+    "Funcion Objetivo": 48973032.829,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 21.44,
+    "Gap": 0.01
+  },
+  "1.14000,0.07300": {
+    "Funcion Objetivo": 49688982.299,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 55.43,
+    "Gap": 0.01
+  },
+  "1.14000,0.08300": {
+    "Funcion Objetivo": 50404931.769,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 16.69,
+    "Gap": 0.01
+  },
+  "1.14000,0.09300": {
+    "Funcion Objetivo": 51120871.081,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 4.22,
+    "Gap": 0.01
+  },
+  "1.14000,0.10300": {
+    "Funcion Objetivo": 51836698.003,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.83,
+    "Gap": 0.01
+  },
+  "1.14000,0.11300": {
+    "Funcion Objetivo": 52552524.924,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 103.62,
+    "Gap": 0.01
+  },
+  "1.14000,0.12300": {
+    "Funcion Objetivo": 53268351.846,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.69,
+    "Gap": 0.01
+  },
+  "1.14000,0.13300": {
+    "Funcion Objetivo": 53984178.768,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 33.54,
+    "Gap": 0.01
+  },
+  "1.14000,0.14300": {
+    "Funcion Objetivo": 54700005.69,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.28,
+    "Gap": 0.01
+  },
+  "1.14000,0.15300": {
+    "Funcion Objetivo": 55415832.612,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 25.95,
+    "Gap": 0.01
+  },
+  "1.14000,0.16300": {
+    "Funcion Objetivo": 56131659.534,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 22.12,
+    "Gap": 0.0
+  },
+  "1.14000,0.17300": {
+    "Funcion Objetivo": 56847486.456,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 43.05,
+    "Gap": 0.01
+  },
+  "1.14000,0.18300": {
+    "Funcion Objetivo": 57563304.457,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 42.63,
+    "Gap": 0.01
+  },
+  "1.14000,0.19300": {
+    "Funcion Objetivo": 58278986.157,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.43,
+    "Gap": 0.01
+  },
+  "1.19000,0.03300": {
+    "Funcion Objetivo": 47241540.185,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 54.58,
+    "Gap": 0.01
+  },
+  "1.19000,0.04300": {
+    "Funcion Objetivo": 47957352.001,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.17,
+    "Gap": 0.01
+  },
+  "1.19000,0.05300": {
+    "Funcion Objetivo": 48672410.569,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 45.47,
+    "Gap": 0.01
+  },
+  "1.19000,0.06300": {
+    "Funcion Objetivo": 49388360.039,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 10.62,
+    "Gap": 0.01
+  },
+  "1.19000,0.07300": {
+    "Funcion Objetivo": 50104309.509,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 19.32,
+    "Gap": 0.01
+  },
+  "1.19000,0.08300": {
+    "Funcion Objetivo": 50820258.98,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 60.94,
+    "Gap": 0.01
+  },
+  "1.19000,0.09300": {
+    "Funcion Objetivo": 51536208.45,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 162.05,
+    "Gap": 0.01
+  },
+  "1.19000,0.10300": {
+    "Funcion Objetivo": 52251984.594,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.08,
+    "Gap": 0.01
+  },
+  "1.19000,0.11300": {
+    "Funcion Objetivo": 52967811.516,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 39.32,
+    "Gap": 0.01
+  },
+  "1.19000,0.12300": {
+    "Funcion Objetivo": 53683638.438,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.29,
+    "Gap": 0.01
+  },
+  "1.19000,0.13300": {
+    "Funcion Objetivo": 54399465.359,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.63,
+    "Gap": 0.01
+  },
+  "1.19000,0.14300": {
+    "Funcion Objetivo": 55115292.281,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.57,
+    "Gap": 0.01
+  },
+  "1.19000,0.15300": {
+    "Funcion Objetivo": 55831119.203,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 23.01,
+    "Gap": 0.01
+  },
+  "1.19000,0.16300": {
+    "Funcion Objetivo": 56546946.125,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.35,
+    "Gap": 0.01
+  },
+  "1.19000,0.17300": {
+    "Funcion Objetivo": 57262773.047,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 22.29,
+    "Gap": 0.01
+  },
+  "1.19000,0.18300": {
+    "Funcion Objetivo": 57978599.969,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 8.56,
+    "Gap": 0.01
+  },
+  "1.19000,0.19300": {
+    "Funcion Objetivo": 58694426.891,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.16,
+    "Gap": 0.01
+  },
+  "1.24000,0.03300": {
+    "Funcion Objetivo": 47655838.839,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 74.55,
+    "Gap": 0.01
+  },
+  "1.24000,0.04300": {
+    "Funcion Objetivo": 48371788.309,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 73.87,
+    "Gap": 0.01
+  },
+  "1.24000,0.05300": {
+    "Funcion Objetivo": 49087737.779,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 70.25,
+    "Gap": 0.01
+  },
+  "1.24000,0.06300": {
+    "Funcion Objetivo": 49803687.249,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 173.95,
+    "Gap": 0.01
+  },
+  "1.24000,0.07300": {
+    "Funcion Objetivo": 50519636.72,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 18.71,
+    "Gap": 0.01
+  },
+  "1.24000,0.08300": {
+    "Funcion Objetivo": 51235586.19,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 21.43,
+    "Gap": 0.01
+  },
+  "1.24000,0.09300": {
+    "Funcion Objetivo": 51951444.263,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 38.68,
+    "Gap": 0.01
+  },
+  "1.24000,0.10300": {
+    "Funcion Objetivo": 52667271.185,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.79,
+    "Gap": 0.01
+  },
+  "1.24000,0.11300": {
+    "Funcion Objetivo": 53383098.107,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 30.1,
+    "Gap": 0.01
+  },
+  "1.24000,0.12300": {
+    "Funcion Objetivo": 54098925.029,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 22.09,
+    "Gap": 0.01
+  },
+  "1.24000,0.13300": {
+    "Funcion Objetivo": 54814751.951,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 33.28,
+    "Gap": 0.01
+  },
+  "1.24000,0.14300": {
+    "Funcion Objetivo": 55530578.873,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 13.7,
+    "Gap": 0.01
+  },
+  "1.24000,0.15300": {
+    "Funcion Objetivo": 56246405.794,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.26,
+    "Gap": 0.01
+  },
+  "1.24000,0.16300": {
+    "Funcion Objetivo": 56962232.716,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 24.87,
+    "Gap": 0.01
+  },
+  "1.24000,0.17300": {
+    "Funcion Objetivo": 57678059.638,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 16.37,
+    "Gap": 0.01
+  },
+  "1.24000,0.18300": {
+    "Funcion Objetivo": 58393886.56,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 15.68,
+    "Gap": 0.01
+  },
+  "1.24000,0.19300": {
+    "Funcion Objetivo": 59109713.482,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 43.98,
+    "Gap": 0.01
+  },
+  "1.29000,0.03300": {
+    "Funcion Objetivo": 48071769.323,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 35.57,
+    "Gap": 0.01
+  },
+  "1.29000,0.04300": {
+    "Funcion Objetivo": 48787596.245,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 80.45,
+    "Gap": 0.01
+  },
+  "1.29000,0.05300": {
+    "Funcion Objetivo": 49503064.989,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 80.15,
+    "Gap": 0.01
+  },
+  "1.29000,0.06300": {
+    "Funcion Objetivo": 50219014.46,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 60.89,
+    "Gap": 0.01
+  },
+  "1.29000,0.07300": {
+    "Funcion Objetivo": 50934963.93,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 78.26,
+    "Gap": 0.01
+  },
+  "1.29000,0.08300": {
+    "Funcion Objetivo": 51650913.4,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 65.52,
+    "Gap": 0.01
+  },
+  "1.29000,0.09300": {
+    "Funcion Objetivo": 52366862.87,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 22.63,
+    "Gap": 0.01
+  },
+  "1.29000,0.10300": {
+    "Funcion Objetivo": 53082812.341,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 50.21,
+    "Gap": 0.01
+  },
+  "1.29000,0.11300": {
+    "Funcion Objetivo": 53798384.698,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 65.22,
+    "Gap": 0.01
+  },
+  "1.29000,0.12300": {
+    "Funcion Objetivo": 54514211.62,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 29.79,
+    "Gap": 0.01
+  },
+  "1.29000,0.13300": {
+    "Funcion Objetivo": 55230038.542,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 12.11,
+    "Gap": 0.01
+  },
+  "1.29000,0.14300": {
+    "Funcion Objetivo": 55945865.464,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.03,
+    "Gap": 0.01
+  },
+  "1.29000,0.15300": {
+    "Funcion Objetivo": 56661692.386,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 18.93,
+    "Gap": 0.01
+  },
+  "1.29000,0.16300": {
+    "Funcion Objetivo": 57377519.308,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 50.4,
+    "Gap": 0.01
+  },
+  "1.29000,0.17300": {
+    "Funcion Objetivo": 58093346.229,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 14.18,
+    "Gap": 0.01
+  },
+  "1.29000,0.18300": {
+    "Funcion Objetivo": 58809173.151,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.28,
+    "Gap": 0.01
+  },
+  "1.29000,0.19300": {
+    "Funcion Objetivo": 59525000.073,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 174.84,
+    "Gap": 0.01
+  },
+  "1.34000,0.03300": {
+    "Funcion Objetivo": 48486493.259,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 200.3,
+    "Gap": 0.01
+  },
+  "1.34000,0.04300": {
+    "Funcion Objetivo": 49202442.729,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.22,
+    "Gap": 0.03
+  },
+  "1.34000,0.05300": {
+    "Funcion Objetivo": 49918392.2,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.26,
+    "Gap": 0.02
+  },
+  "1.34000,0.06300": {
+    "Funcion Objetivo": 50634341.67,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 100.35,
+    "Gap": 0.01
+  },
+  "1.34000,0.07300": {
+    "Funcion Objetivo": 51350291.14,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 90.7,
+    "Gap": 0.01
+  },
+  "1.34000,0.08300": {
+    "Funcion Objetivo": 52066190.523,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 115.54,
+    "Gap": 0.01
+  },
+  "1.34000,0.09300": {
+    "Funcion Objetivo": 52782017.445,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.3,
+    "Gap": 0.01
+  },
+  "1.34000,0.10300": {
+    "Funcion Objetivo": 53497844.367,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 234.51,
+    "Gap": 0.01
+  },
+  "1.34000,0.11300": {
+    "Funcion Objetivo": 54213671.289,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 101.34,
+    "Gap": 0.01
+  },
+  "1.34000,0.12300": {
+    "Funcion Objetivo": 54929498.211,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 98.85,
+    "Gap": 0.01
+  },
+  "1.34000,0.13300": {
+    "Funcion Objetivo": 55645325.133,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 63.9,
+    "Gap": 0.01
+  },
+  "1.34000,0.14300": {
+    "Funcion Objetivo": 56361152.055,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 44.86,
+    "Gap": 0.01
+  },
+  "1.34000,0.15300": {
+    "Funcion Objetivo": 57076978.977,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 32.27,
+    "Gap": 0.01
+  },
+  "1.34000,0.16300": {
+    "Funcion Objetivo": 57792805.899,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 40.88,
+    "Gap": 0.01
+  },
+  "1.34000,0.17300": {
+    "Funcion Objetivo": 58508632.821,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 24.55,
+    "Gap": 0.01
+  },
+  "1.34000,0.18300": {
+    "Funcion Objetivo": 59224459.743,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 17.3,
+    "Gap": 0.01
+  },
+  "1.34000,0.19300": {
+    "Funcion Objetivo": 59940286.664,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 66.9,
+    "Gap": 0.01
+  },
+  "1.39000,0.03300": {
+    "Funcion Objetivo": 48902342.505,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.1,
+    "Gap": 0.05
+  },
+  "1.39000,0.04300": {
+    "Funcion Objetivo": 49618169.427,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.15,
+    "Gap": 0.04
+  },
+  "1.39000,0.05300": {
+    "Funcion Objetivo": 50333996.349,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 182.51,
+    "Gap": 0.01
+  },
+  "1.39000,0.06300": {
+    "Funcion Objetivo": 51049823.271,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 109.41,
+    "Gap": 0.01
+  },
+  "1.39000,0.07300": {
+    "Funcion Objetivo": 51765618.35,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 116.87,
+    "Gap": 0.01
+  },
+  "1.39000,0.08300": {
+    "Funcion Objetivo": 52481567.821,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 80.7,
+    "Gap": 0.01
+  },
+  "1.39000,0.09300": {
+    "Funcion Objetivo": 53197517.291,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 86.56,
+    "Gap": 0.01
+  },
+  "1.39000,0.10300": {
+    "Funcion Objetivo": 53913466.761,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 65.77,
+    "Gap": 0.01
+  },
+  "1.39000,0.11300": {
+    "Funcion Objetivo": 54629416.232,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 73.59,
+    "Gap": 0.01
+  },
+  "1.39000,0.12300": {
+    "Funcion Objetivo": 55344784.802,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 50.92,
+    "Gap": 0.01
+  },
+  "1.39000,0.13300": {
+    "Funcion Objetivo": 56060611.724,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 93.28,
+    "Gap": 0.01
+  },
+  "1.39000,0.14300": {
+    "Funcion Objetivo": 56776438.646,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 68.37,
+    "Gap": 0.01
+  },
+  "1.39000,0.15300": {
+    "Funcion Objetivo": 57492265.568,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 26.17,
+    "Gap": 0.01
+  },
+  "1.39000,0.16300": {
+    "Funcion Objetivo": 58208092.49,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 32.19,
+    "Gap": 0.01
+  },
+  "1.39000,0.17300": {
+    "Funcion Objetivo": 58923919.412,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 23.1,
+    "Gap": 0.01
+  },
+  "1.39000,0.18300": {
+    "Funcion Objetivo": 59639746.334,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 19.71,
+    "Gap": 0.01
+  },
+  "1.39000,0.19300": {
+    "Funcion Objetivo": 60355573.256,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 29.67,
+    "Gap": 0.01
+  },
+  "1.44000,0.03300": {
+    "Funcion Objetivo": 49317147.68,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.11,
+    "Gap": 0.07
+  },
+  "1.44000,0.04300": {
+    "Funcion Objetivo": 50033097.15,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.25,
+    "Gap": 0.01
+  },
+  "1.44000,0.05300": {
+    "Funcion Objetivo": 50749046.62,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.3,
+    "Gap": 0.01
+  },
+  "1.44000,0.06300": {
+    "Funcion Objetivo": 51464996.09,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.11,
+    "Gap": 0.04
+  },
+  "1.44000,0.07300": {
+    "Funcion Objetivo": 52180945.561,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.14,
+    "Gap": 0.03
+  },
+  "1.44000,0.08300": {
+    "Funcion Objetivo": 52896895.031,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 123.95,
+    "Gap": 0.01
+  },
+  "1.44000,0.09300": {
+    "Funcion Objetivo": 53612844.501,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 600.28,
+    "Gap": 0.02
+  },
+  "1.44000,0.10300": {
+    "Funcion Objetivo": 54328793.972,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2036,
+    "Tiempo de Solucion": 108.95,
+    "Gap": 0.01
+  },
+  "1.44000,0.11300": {
+    "Funcion Objetivo": 55044244.472,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 58.32,
+    "Gap": 0.01
+  },
+  "1.44000,0.12300": {
+    "Funcion Objetivo": 55760071.393,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 102.42,
+    "Gap": 0.01
+  },
+  "1.44000,0.13300": {
+    "Funcion Objetivo": 56475898.315,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 69.56,
+    "Gap": 0.01
+  },
+  "1.44000,0.14300": {
+    "Funcion Objetivo": 57191725.237,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 79.82,
+    "Gap": 0.01
+  },
+  "1.44000,0.15300": {
+    "Funcion Objetivo": 57907552.159,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 49.62,
+    "Gap": 0.01
+  },
+  "1.44000,0.16300": {
+    "Funcion Objetivo": 58623379.081,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 25.47,
+    "Gap": 0.01
+  },
+  "1.44000,0.17300": {
+    "Funcion Objetivo": 59339206.003,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.85,
+    "Gap": 0.01
+  },
+  "1.44000,0.18300": {
+    "Funcion Objetivo": 60055032.925,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 21.27,
+    "Gap": 0.01
+  },
+  "1.44000,0.19300": {
+    "Funcion Objetivo": 60770859.847,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 42.72,
+    "Gap": 0.01
+  },
+  "1.49000,0.03300": {
+    "Funcion Objetivo": 49732915.687,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.08,
+    "Gap": 0.04
+  },
+  "1.49000,0.04300": {
+    "Funcion Objetivo": 50448742.609,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.19,
+    "Gap": 0.04
+  },
+  "1.49000,0.05300": {
+    "Funcion Objetivo": 51164569.531,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.08,
+    "Gap": 0.06
+  },
+  "1.49000,0.06300": {
+    "Funcion Objetivo": 51880396.453,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.33,
+    "Gap": 0.02
+  },
+  "1.49000,0.07300": {
+    "Funcion Objetivo": 52596223.375,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.14,
+    "Gap": 0.02
+  },
+  "1.49000,0.08300": {
+    "Funcion Objetivo": 53312050.297,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 436.54,
+    "Gap": 0.01
+  },
+  "1.49000,0.09300": {
+    "Funcion Objetivo": 54027877.219,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.19,
+    "Gap": 0.03
+  },
+  "1.49000,0.10300": {
+    "Funcion Objetivo": 54743704.141,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 336.07,
+    "Gap": 0.01
+  },
+  "1.49000,0.11300": {
+    "Funcion Objetivo": 55459531.063,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 202.11,
+    "Gap": 0.01
+  },
+  "1.49000,0.12300": {
+    "Funcion Objetivo": 56175357.985,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 184.34,
+    "Gap": 0.01
+  },
+  "1.49000,0.13300": {
+    "Funcion Objetivo": 56891184.907,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 170.6,
+    "Gap": 0.01
+  },
+  "1.49000,0.14300": {
+    "Funcion Objetivo": 57607011.828,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 177.76,
+    "Gap": 0.01
+  },
+  "1.49000,0.15300": {
+    "Funcion Objetivo": 58322838.75,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 220.1,
+    "Gap": 0.01
+  },
+  "1.49000,0.16300": {
+    "Funcion Objetivo": 59038665.672,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 89.37,
+    "Gap": 0.01
+  },
+  "1.49000,0.17300": {
+    "Funcion Objetivo": 59754492.594,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 74.14,
+    "Gap": 0.01
+  },
+  "1.49000,0.18300": {
+    "Funcion Objetivo": 60470319.516,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 27.02,
+    "Gap": 0.01
+  },
+  "1.49000,0.19300": {
+    "Funcion Objetivo": 61186146.438,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 84.65,
+    "Gap": 0.01
+  },
+  "1.54000,0.03300": {
+    "Funcion Objetivo": 50148202.279,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.05,
+    "Gap": 0.03
+  },
+  "1.54000,0.04300": {
+    "Funcion Objetivo": 50864029.201,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.11,
+    "Gap": 0.05
+  },
+  "1.54000,0.05300": {
+    "Funcion Objetivo": 51579856.122,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.21,
+    "Gap": 0.02
+  },
+  "1.54000,0.06300": {
+    "Funcion Objetivo": 52295683.044,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.04,
+    "Gap": 0.04
+  },
+  "1.54000,0.07300": {
+    "Funcion Objetivo": 53011509.966,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.16,
+    "Gap": 0.03
+  },
+  "1.54000,0.08300": {
+    "Funcion Objetivo": 53727336.888,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 600.13,
+    "Gap": 0.01
+  },
+  "1.54000,0.09300": {
+    "Funcion Objetivo": 54443163.81,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 528.86,
+    "Gap": 0.01
+  },
+  "1.54000,0.10300": {
+    "Funcion Objetivo": 55158990.732,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 291.32,
+    "Gap": 0.01
+  },
+  "1.54000,0.11300": {
+    "Funcion Objetivo": 55874817.654,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 200.63,
+    "Gap": 0.01
+  },
+  "1.54000,0.12300": {
+    "Funcion Objetivo": 56590644.576,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 140.47,
+    "Gap": 0.01
+  },
+  "1.54000,0.13300": {
+    "Funcion Objetivo": 57306471.498,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 96.74,
+    "Gap": 0.01
+  },
+  "1.54000,0.14300": {
+    "Funcion Objetivo": 58022298.42,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 93.75,
+    "Gap": 0.01
+  },
+  "1.54000,0.15300": {
+    "Funcion Objetivo": 58738125.342,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 90.39,
+    "Gap": 0.01
+  },
+  "1.54000,0.16300": {
+    "Funcion Objetivo": 59453952.263,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 76.5,
+    "Gap": 0.01
+  },
+  "1.54000,0.17300": {
+    "Funcion Objetivo": 60169779.185,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 147.04,
+    "Gap": 0.01
+  },
+  "1.54000,0.18300": {
+    "Funcion Objetivo": 60885606.107,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 77.25,
+    "Gap": 0.01
+  },
+  "1.54000,0.19300": {
+    "Funcion Objetivo": 61601433.029,
+    "Numero a\u00f1os 50 electrificado": 2030,
+    "Numero a\u00f1os 100 electrificado": 2035,
+    "Tiempo de Solucion": 36.36,
+    "Gap": 0.01
+  }
+}
